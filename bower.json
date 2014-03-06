@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "homepage": "http://bootflat.github.io",
   "authors": [
-    "Dong Xu <Bootflat2@gmail.com>"
+    "Dong Xu <bootflat2@gmail.com>"
   ],
   "description": "BOOTFLAT is an open source Flat UI KIT based on Twitter Bootstrap 3.1.0 css framework. It provides a faster, easier and less repetitive way for web developers to create elegant web app.",
   "main": [
