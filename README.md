@@ -25,7 +25,7 @@ Bootflat is fully responsive, but it's mobile first. it provide the off screen n
 ## Manual Start
 Install with [bower](http://bower.io/)?
 
-`bower install angulargap`
+`bower install bootflatv2`
 
 The source files are in the `bootflat/` folder. You can just grab the `bootflat/css/`, `bootflat/scss/`,`bootflat/js/` and `bootflat/img/` folders and you'll be good to go.
 
