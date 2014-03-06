@@ -2,6 +2,8 @@
 
 BOOTFLAT is an open source Flat UI KIT based on Twitter Bootstrap 3.1.0 css framework. It provides a faster, easier and less repetitive way for web developers to create elegant web app.
 
+Bootflat is made on the basis of Twitter Bootstrap in a stunning flat-style. Bootstrap is a trusted, reliable and proven tool for developers. Built with `Sass`.
+
 Note: Compatible Browsers: `IE8, IE9, IE10, Firefox, Safari, Opera, Chrome`.
 
 Thanks for supporting our website and enjoy!
