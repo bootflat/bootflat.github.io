@@ -11,7 +11,7 @@
     "bootflat/scss/*",
     "bootflat/fonts/*",
     "bootflat/js/*",
-    "bootflat/img/*",
+    "bootflat/img/*"
   ],
   "keywords": [
     "mobile",
