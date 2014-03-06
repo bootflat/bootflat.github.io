@@ -2,7 +2,7 @@
 
 BOOTFLAT is an open source Flat UI KIT based on Twitter Bootstrap 3.1.0 css framework. It provides a faster, easier and less repetitive way for web developers to create elegant web app.
 
-Note: Compatible Browsers: IE8, IE9, IE10, Firefox, Safari, Opera, Chrome.
+Note: Compatible Browsers: `IE8, IE9, IE10, Firefox, Safari, Opera, Chrome`.
 
 Thanks for supporting our website and enjoy!
 
@@ -33,8 +33,8 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 
 ## Links:
 
-+ [AngularGap Home page](http://bootflat.github.io/)
-+ [AngularGap Documentation page](http://bootflat.github.io/documentation.html)
++ [Bootflat Home page](http://bootflat.github.io/)
++ [Bootflat Documentation page](http://bootflat.github.io/documentation.html)
 
 ## Community
 
