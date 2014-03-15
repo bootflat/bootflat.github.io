@@ -1254,7 +1254,7 @@ a.list-group-item-success.active, a.list-group-item-success:hover, a.list-group-
   border-color: transparent;
 }
 a.list-group-item-warning {
-  color: #543c00;
+  color: #a17300;
 }
 a.list-group-item-warning:hover, a.list-group-item-warning:focus {
   color: white;
