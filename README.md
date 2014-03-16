@@ -1,6 +1,6 @@
 # What is Bootflat?
 
-BOOTFLAT is an open source Flat UI KIT based on Twitter's Bootstrap 3.1.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
+BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.1.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
 
 Bootflat is built on the foundations of Bootstrap, visioned in a stunning flat design. Bootstrap itself is a trusted, reliable and proven tool for developers. Built with `Sass`.
 
