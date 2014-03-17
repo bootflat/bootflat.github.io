@@ -1681,6 +1681,17 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
   padding: 0 20px;
   width: 20%;
 }
+@media (max-width: 768px) {
+  .footer .footer-logo {
+    margin-bottom: 20px;
+  }
+  .footer .footer-logo,
+  .footer .footer-nav {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+}
 .footer .footer-logo {
   margin-top: -5px;
   height: 32px;

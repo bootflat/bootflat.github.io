@@ -28,6 +28,17 @@ $footer-logo-color:                  $white !default;
       padding: 0 20px;
       width: 20%;
     }
+    @media (max-width: 768px) {
+      #{&}-logo {
+        margin-bottom: 20px;
+      }
+      #{&}-logo,
+      #{&}-nav {
+        float: none;
+        display: block;
+        width: 100%;
+      }      
+    }
     #{&}-logo {
       margin-top: -5px;
       height: 32px;
