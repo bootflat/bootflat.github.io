@@ -36,12 +36,12 @@ $list-shadow:                                  0 1px 2px rgba(0, 0, 0, .2) !defa
   .list-group {
     @include radius($type: border-radius, $value: $list-radius);
     @include box-shadow($value: $list-shadow);
-    @at-root #{&}-item {
+    @at-root &-item {
       border-top-color: $list-border-color;
       &:first-child {
         border-top: none;
       }
-      @at-root #{&}-heading {
+      @at-root &-heading {
         color: $list-font-color;
       }
     }
@@ -79,7 +79,7 @@ $list-shadow:                                  0 1px 2px rgba(0, 0, 0, .2) !defa
     &:first-child {
       border-color: transparent;      
     }
-    @at-root a#{&} {
+    @at-root a.list-group-item-primary {
       color: darken($list-primary, 30%);
       &:hover,
       &:focus {
@@ -101,7 +101,7 @@ $list-shadow:                                  0 1px 2px rgba(0, 0, 0, .2) !defa
     &:first-child {
       border-color: transparent;      
     }
-    @at-root a#{&} {
+    @at-root a.list-group-item-success {
       color: darken($list-success, 30%);
       &:hover,
       &:focus {
@@ -123,7 +123,7 @@ $list-shadow:                                  0 1px 2px rgba(0, 0, 0, .2) !defa
     &:first-child {
       border-color: transparent;      
     }
-    @at-root a#{&} {
+    @at-root a.list-group-item-warning {
       color: darken($list-warning, 40%);
       &:hover,
       &:focus {
@@ -145,7 +145,7 @@ $list-shadow:                                  0 1px 2px rgba(0, 0, 0, .2) !defa
     &:first-child {
       border-color: transparent;      
     }
-    @at-root a#{&} {
+    @at-root a.list-group-item-info {
       color: darken($list-info, 30%);
       &:hover,
       &:focus {
@@ -167,7 +167,7 @@ $list-shadow:                                  0 1px 2px rgba(0, 0, 0, .2) !defa
     &:first-child {
       border-color: transparent;      
     }
-    @at-root a#{&} {
+    @at-root a.list-group-item-danger {
       color: darken($list-danger, 30%);
       &:hover,
       &:focus {

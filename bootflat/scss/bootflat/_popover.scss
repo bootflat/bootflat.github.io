@@ -20,7 +20,7 @@ $popover-title-font-color:               $mediumgray-dark !default;
       color: $popover-font-color;
       border-color: $popover-background-color;
 
-      @at-root #{&}-title {
+      @at-root &-title {
           padding-bottom: 0;
           font-weight: bold;
           color: $popover-title-font-color;

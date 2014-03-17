@@ -15,24 +15,24 @@ $tooltip-font-color:                     $white !default;
    */
 
   .tooltip {
-    @at-root #{&}-inner {
+    @at-root &-inner {
         color: $tooltip-font-color;
         background-color: $tooltip-background-color;
     }
-    &.top #{&}-arrow,
-    &.top-left #{&}-arrow,
-    &.top-right #{&}-arrow {
+    &.top &-arrow,
+    &.top-left &-arrow,
+    &.top-right &-arrow {
         border-top-color: $tooltip-background-color;
     }
-    &.right #{&}-arrow {
+    &.right &-arrow {
         border-right-color: $tooltip-background-color;
     }
-    &.left #{&}-arrow {
+    &.left &-arrow {
         border-left-color: $tooltip-background-color;
     }
-    &.bottom #{&}-arrow,
-    &.bottom-left #{&}-arrow, 
-    &.bottom-right #{&}-arrow {
+    &.bottom &-arrow,
+    &.bottom-left &-arrow, 
+    &.bottom-right &-arrow {
         border-bottom-color: $tooltip-background-color;
     }
   }

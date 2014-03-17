@@ -1,6 +1,6 @@
 // Global Variables
 //------------------------------------------------------
-$modules:                     () !global;
+$modules:                     () !default;
 
 $experimental:                true !default;
 
@@ -34,8 +34,8 @@ $bittersweet-light:           #FC6E51 !default;
 $grapefruit-dark:             #DA4453 !default;
 $grapefruit-light:            #ED5565 !default;
 
-$lavander-dark:               #967ADC !default;
-$lavander-light:              #AC92EC !default;
+$lavender-dark:               #967ADC !default;
+$lavender-light:              #AC92EC !default;
 
 $pinkrose-dark:               #D770AD !default;
 $pinkrose-light:              #EC87C0 !default;
@@ -54,7 +54,8 @@ $darkgray-light:              #656D78 !default;
 
 // We use this to loading scss files
 @mixin exports($name) {
-  @if (index($modules, $name) == false) {
+  @if index($modules, $name) {
+  } @else {
     $modules: append($modules, $name);
     @content;
   }

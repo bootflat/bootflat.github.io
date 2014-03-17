@@ -22,24 +22,24 @@ $footer-logo-color:                  $white !default;
     padding: 40px 0;
     background-color: $footer-background-color;
 
-    #{&}-logo,
-    #{&}-nav {
+    &-logo,
+    &-nav {
       float: left;
       padding: 0 20px;
       width: 20%;
     }
     @media (max-width: 768px) {
-      #{&}-logo {
+      &-logo {
         margin-bottom: 20px;
       }
-      #{&}-logo,
-      #{&}-nav {
+      &-logo,
+      &-nav {
         float: none;
         display: block;
         width: 100%;
       }      
     }
-    #{&}-logo {
+    &-logo {
       margin-top: -5px;
       height: 32px;
       line-height: 32px;
@@ -57,11 +57,11 @@ $footer-logo-color:                  $white !default;
         text-decoration: none;
       }
     }
-    #{&}-nav .nav-title {
+    &-nav .nav-title {
       margin-bottom: 15px;
       color: $footer-menu-title-color;
     }
-    #{&}-nav .nav-item {
+    &-nav .nav-item {
       line-height: 28px;
       & > a {
         color: $footer-menu-item-color;
@@ -72,7 +72,7 @@ $footer-logo-color:                  $white !default;
         text-decoration: none;
       }
     }
-    #{&}-copyright {
+    &-copyright {
       color: $footer-menu-item-color;
     }
   }

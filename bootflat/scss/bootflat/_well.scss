@@ -30,10 +30,10 @@ $well-shadow:                0 1px 2px rgba(0, 0, 0, .2) !default;
     & blockquote {
       border-color: $well-blockquote-color;
     }
-    @at-root #{&}-lg {
+    @at-root &-lg {
       padding: 20px;
     }
-    @at-root #{&}-sm {
+    @at-root &-sm {
       padding: 5px;
     }
   }

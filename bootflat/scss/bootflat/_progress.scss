@@ -20,20 +20,20 @@ $progress-background-color:        $lightgray-dark !default;
       background-color: $progress-background-color;
       @include box-shadow($value: none);
 
-      #{&}-bar {
+      &-bar {
         background-color: $progress-primary;
         @include box-shadow($value: none);
       }
-      #{&}-bar-success {
+      &-bar-success {
         background-color: $progress-success;
       }
-      #{&}-bar-info {
+      &-bar-info {
         background-color: $progress-info;
       }
-      #{&}-bar-warning {
+      &-bar-warning {
         background-color: $progress-warning;
       }
-      #{&}-bar-danger {
+      &-bar-danger {
         background-color: $progress-danger;
       }
   }
