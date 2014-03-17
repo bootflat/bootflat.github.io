@@ -26,10 +26,6 @@
     "node_modules",
     "bower_components",
     "angularicons",
-    "css",
-    "fonts",
-    "img",
-    "js",
     "documentation.html",
     "getting-started.html",
     "index.html"
