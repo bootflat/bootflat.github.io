@@ -1,12 +1,6 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
-    jshint: {
-      files: ['Gruntfile.js', 'js/**/*.js'],
-      options: {
-        jshintrc: '.jshintrc'
-      }
-    },
     uglify: {
       dist: {
         files: {
@@ -50,7 +44,6 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   grunt.registerTask('default', [
-    'jshint',
     'sass',
     'cssmin',
     'uglify'

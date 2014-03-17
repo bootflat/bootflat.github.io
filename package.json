@@ -2,7 +2,7 @@
   "name": "Bootflat",
   "private": false,
   "version": "2.0.0",
-  "description": "BOOTFLAT is an open source Flat UI KIT based on Twitter Bootstrap 3.1.0 css framework. It provides a faster, easier and less repetitive way for web developers to create elegant web app.",
+  "description": "BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.1.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.",
   "author":"Flathemes",
   "license": "MIT",
   "devDependencies": {
@@ -11,7 +11,6 @@
     "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-uglify": "~0.2.4",
-    "grunt-contrib-jshint": "~0.6.4",
     "grunt-contrib-sass": "~0.5.0",
     "load-grunt-tasks": "~0.2.0"
   }
