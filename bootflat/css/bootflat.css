@@ -800,8 +800,6 @@ blockquote {
 }
 .alert-dismissable .close {
   color: black;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
 }
 .alert-info {
   background-color: #7cd1ef;
@@ -1072,7 +1070,7 @@ blockquote {
   background-color: #37bc9b;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: #37bc9b;
+  border-color: #48cfad;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: white;
@@ -1178,6 +1176,7 @@ blockquote {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 .list-group-item {
+  border-color: transparent;
   border-top-color: #e6e9ed;
 }
 .list-group-item:first-child {
@@ -1584,83 +1583,59 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
  * accordion
  * --------------------------------------------------
  */
-.accordion .accordion-header {
+.panel-group .panel {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.panel-group .panel + .panel {
   margin-top: 0;
-  font-size: 16px;
+}
+.panel-group .panel-heading {
+  padding: 0;
+  border-bottom-color: transparent;
+}
+.panel-group .panel-heading + .panel-collapse .panel-body {
+  padding: 15px 0;
+  border-top-color: transparent;
+}
+.panel-group .panel-title a {
+  padding: 10px 0;
   display: block;
 }
-.accordion .accordion-header a {
-  font-weight: normal;
-  font-size: 15px;
-  color: #aab2bd;
-}
-.accordion .accordion-header a:hover, .accordion .accordion-header a:focus, .accordion .accordion-header a:active {
-  color: #434a54;
-  text-decoration: none;
-}
-.accordion .accordion-header .glyphicon {
-  position: relative;
-  top: -1px;
-  font-size: 10px;
-}
-.accordion .accordion-header + div {
-  display: block !important;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  height: 0;
-  overflow: hidden;
-}
-.accordion .accordion-header.open + div {
-  height: auto;
-}
-.accordion .accordion-header.open a, .accordion .accordion-header.open a:hover, .accordion .accordion-header.open a:focus, .accordion .accordion-header.open a:active {
-  color: #434a54;
-  text-decoration: none;
-}
-.accordion .accordion-header.open .glyphicon {
-  -webkit-transform: rotate(-30deg);
-  -moz-transform: rotate(-30deg);
-  transform: rotate(-30deg);
-}
-.accordion .accordion-body {
-  padding: 10px 0;
-}
 
-.accordion-panel {
+.panel-group-lists .panel {
+  border-bottom: 1px solid #e6e9ed;
   background-color: white;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-.accordion-panel .accordion-header {
-  margin-bottom: 0;
-  border-top: 1px solid #e6e9ed;
-}
-.accordion-panel .accordion-header:first-child {
-  border-top: none;
+.panel-group-lists .panel:first-child {
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
 }
-.accordion-panel .accordion-header:last-child {
+.panel-group-lists .panel:last-child {
   -webkit-border-radius: 0 0 4px 4px;
   -moz-border-radius: 0 0 4px 4px;
   border-radius: 0 0 4px 4px;
+  border-bottom: none;
 }
-.accordion-panel .accordion-header a, .accordion-panel .accordion-header a:hover, .accordion-panel .accordion-header a:active, .accordion-panel .accordion-header a:focus {
+.panel-group-lists .panel-heading + .panel-collapse .panel-body {
+  padding: 15px;
+  border-top-color: #e6e9ed;
+}
+.panel-group-lists .panel-title a {
   padding: 10px 15px;
-  display: block;
   color: #434a54;
 }
-.accordion-panel .accordion-header.open {
-  background-color: #e6e9ed;
-}
-.accordion-panel .accordion-body {
-  padding: 10px;
+.panel-group-lists .panel-title a:hover, .panel-group-lists .panel-title a:focus, .panel-group-lists .panel-title a:active {
+  color: #aab2bd;
 }
 
 /**

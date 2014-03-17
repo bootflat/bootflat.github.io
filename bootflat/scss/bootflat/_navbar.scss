@@ -74,7 +74,7 @@ $navbar-inverse-background-color:            $black !default;
       }
       & .navbar-collapse,
       & .navbar-form {
-          border-color: $navbar-background-color;
+          border-color: $navbar-item-background-color-hover;
       }
       & .navbar-nav > .open > a,
       & .navbar-nav > .open > a:hover,

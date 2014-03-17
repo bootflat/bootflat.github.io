@@ -1,13 +1,14 @@
 // Variables
 //------------------------------------------------------
-$accordion-header-border-color:                $lightgray-dark !default;
+$accordion-border-color:                       $lightgray-dark !default;
 
-$accordion-panel-header-color:                 $lightgray-dark !default;
-$accordion-panel-background-color:             $white !default;
 $accordion-panel-font-color:                   $darkgray-dark !default;
 $accordion-panel-font-color-hover:             $mediumgray-dark !default;
 $accordion-panel-radius:                       4px !default;
+
 $accordion-panel-shadow:                       0 1px 2px rgba(0, 0, 0, .2) !default;
+
+$accordion-panel-background-color:             $white !default;
 
 
 
@@ -20,82 +21,53 @@ $accordion-panel-shadow:                       0 1px 2px rgba(0, 0, 0, .2) !defa
    * accordion
    * --------------------------------------------------
    */
-
-  .accordion {
-    & &-header {
-      margin-top: 0;
-      font-size: 16px;
-      display: block;
-        & a {
-          font-weight: normal;
-          font-size: 15px;
-          color: $accordion-panel-font-color-hover
-        }
-        & a:hover,
-        & a:focus,
-        & a:active {
-          color: $accordion-panel-font-color;
-          text-decoration: none;
-        }
-        & .glyphicon {
-          position: relative;
-          top: -1px;
-          font-size: 10px;
-        }
-        & + div {
-          display: block !important;
-          @include transition (all 0.3s ease);
-          height: 0;
-          overflow: hidden;
-        }
-        &.open + div {
-          height: auto;
-        }
-        &.open a,
-        &.open a:hover,
-        &.open a:focus,
-        &.open a:active {
-          color: $accordion-panel-font-color;
-          text-decoration: none;
-        }
-        &.open .glyphicon {
-          @include transform($value: rotate(-30deg));
-        }
+  .panel-group {
+    & .panel {
+      @include radius($type: border-radius, $value: 0);
+      background-color: transparent;
+      @include box-shadow($value: none);
     }
-    & .accordion-body {
+    & .panel+.panel {
+      margin-top: 0;
+    }
+    & .panel-heading {
+      padding: 0;
+      border-bottom-color: transparent;
+    }
+    & .panel-heading+.panel-collapse .panel-body {
+      padding: 15px 0;
+      border-top-color: transparent;
+    }
+    & .panel-title a {
       padding: 10px 0;
+      display: block;
     }
   }
-
-  .accordion-panel {
-    background-color: $accordion-panel-background-color;
-    @include radius($type: border-radius, $value: $accordion-panel-radius);
-    @include box-shadow($value: $accordion-panel-shadow);
-
-    & .accordion-header {
-      margin-bottom: 0;
-      border-top: 1px solid $accordion-header-border-color;
-      &:first-child {
-        border-top: none;
-        @include radius($type: border-radius, $value: $accordion-panel-radius $accordion-panel-radius 0 0);
-      }
-      &:last-child {
-        @include radius($type: border-radius, $value: 0 0 $accordion-panel-radius $accordion-panel-radius);
-      }
-      & a,
-      & a:hover,
-      & a:active,
-      & a:focus {
-        padding: 10px 15px;
-        display: block;
-        color: $accordion-panel-font-color;
-      }
-      &.open {
-        background-color: $accordion-panel-header-color;
-      }
+  .panel-group-lists {
+    & .panel {
+      border-bottom: 1px solid $accordion-border-color;
+      background-color: $accordion-panel-background-color;
+      @include box-shadow($value: $accordion-panel-shadow);
     }
-    & .accordion-body {
-      padding: 10px;
+    & .panel:first-child {
+      @include radius($type: border-radius, $value: $accordion-panel-radius $accordion-panel-radius 0 0);
+    }
+    & .panel:last-child {
+      @include radius($type: border-radius, $value: 0 0 $accordion-panel-radius $accordion-panel-radius);
+      border-bottom: none;
+    }
+    & .panel-heading+.panel-collapse .panel-body {
+      padding: 15px;
+      border-top-color: $accordion-border-color;
+    }
+    & .panel-title a {
+      padding: 10px 15px;
+      color: $accordion-panel-font-color;
+    }
+    & .panel-title a:hover,
+    & .panel-title a:focus,
+    & .panel-title a:active {
+      color: $accordion-panel-font-color-hover;
     }
   }
 

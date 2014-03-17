@@ -28,7 +28,6 @@ $alert-link-color:              $mediumgray-light !default;
 
       &-dismissable .close {
           color: $alert-close-color;
-          @include opacity($opacity: 70, $filter: true);
       }
 
       @at-root &-info {
