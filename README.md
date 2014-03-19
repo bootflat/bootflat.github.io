@@ -10,7 +10,7 @@ Thanks for supporting our framework, and enjoy!
 
 # Preview
 
-For the designers, we offer a free PSD file for you, it including a set of beautiful and pure components, which you can use to create startup projects, websites or iOS/Android Apps.
+For the designers, we offer a [free PSD](https://github.com/bootflat/Bootflat.UI.Kit.PSD) file for you, it including a set of beautiful and pure components, which you can use to create startup projects, websites or iOS/Android Apps.
 
 ![Bootflat UI Kit](http://bootflat.github.io/img/bootflat-ui-kit.jpg "Bootflat UI Kit")
 
