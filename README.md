@@ -8,6 +8,13 @@ Bootflat is compatible with the following browsers: `IE8, IE9, IE10, Firefox, Sa
 
 Thanks for supporting our framework, and enjoy!
 
+# Preview
+
+For the designers, we offer a free PSD file for you, it including a set of beautiful and pure components, which you can use to create startup projects, websites or iOS/Android Apps.
+
+![Bootflat UI Kit](http://bootflat.github.io/img/bootflat-ui-kit.jpg "Bootflat UI Kit")
+
+
 ## Features:
 
 ### 1. Bootstrap 3.1.0
@@ -20,7 +27,7 @@ Bootflat's components are built with HTML5 and CSS3. The pages use `header`, `na
 Bootflat uses lightweight high-function plugins for maximum performance, keeping CSS and JS file sizes down.
 
 ### 4. Mobile first
-Bootflat is fully responsive, built for mobile-first in mind. It provides off screen navigation, and almost all the widgets are compatible with all screen sizes.
+Bootflat is fully responsive, built for mobile-first in mind. It provides off screen navigation, and almost all the widgets are compatible with all screen sizes. 
 
 ## Manual Start
 Install with [bower](http://bower.io/)?
@@ -37,11 +44,12 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 
 + [Bootflat Home page](http://bootflat.github.io/)
 + [Bootflat Documentation page](http://bootflat.github.io/documentation.html)
++ [Bootflat PSD page](http://bootflat.github.io/free-psd.html)
 
 ## Community
 
 + Follow [@flathemes on Twitter](https://twitter.com/flathemes).
-+ Have a feature request or find a bug? [Submit an issue](https://github.com/angulargap/angulargap.github.io/issues).
++ Have a feature request or find a bug? [Submit an issue](https://github.com/bootflat/bootflat.github.io/issues).
 
 ## LICENSE
 

@@ -145,6 +145,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #50c1e9;
     text-decoration: none;   
 }
+.desc .desc__introduces {
+    border-top: 1px dashed #AAB2BD ;
+}
+.desc .desc__introduces:first-child {
+    border-top: none;
+}
 .desc .desc__introduces h3,
 .desc .desc__introduces p {
     margin: 0 auto;
@@ -172,7 +178,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .desc .desc__features .col-md-6 {
     padding-left: 247px;
-    min-height: 240px;
+    min-height: 200px;
     text-align: left;
 }
 .desc .desc__features .features__photo {
@@ -380,6 +386,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding: 0;
     font-weight: normal;
 }
+.topic .container a.btn {
+    padding: 10px 16px;
+    text-decoration: none;
+}
+.topic .github {
+    position: relative;
+    top: 10px;
+}
 /* ----------------------------------
  * documents
  * ---------------------------------- */
@@ -578,6 +592,49 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .color-swatches .infos p {
     font-size: 12px;
+}
+/* ----------------------------------
+ * psd-download
+ * ---------------------------------- */
+.psd-download {
+    padding: 40px 0;
+    background: #e6e9ed url(../img/github.png) no-repeat 100% 0;
+    min-height: 680px;
+}
+.psd-download h2 {
+    text-align: center;
+}
+.psd-download .infos {
+    font-size: 20px;
+    line-height: 40px;
+}
+.psd-download .row {
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .psd-download [class*="col-md-"] {
+        text-align: center;
+    }
+}
+.psd-download h4 {
+    margin: 0 0 15px 0;
+}
+.psd-download img {
+    margin-bottom: 15px;
+}
+/* ----------------------------------
+ * previews
+ * ---------------------------------- */
+.previews {
+    text-align: center;
+}
+.previews p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.previews img {
+    max-width: 100%;
 }
 /* ----------------------------------
  * site-footer
