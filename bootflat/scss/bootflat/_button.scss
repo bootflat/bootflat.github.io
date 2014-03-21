@@ -20,7 +20,7 @@ $button-font-color-dark:         $darkgray-dark !default;
 $button-font-color-light:        $white !default;
 
 $button-opacity:                 45 !default;
-$button-shaodw:                  inset 0 1px 2px rgba(0, 0, 0, .125) !default;
+$button-shadow:                  inset 0 1px 2px rgba(0, 0, 0, .125) !default;
 
 // Exports
 //------------------------------------------------------
@@ -51,7 +51,7 @@ $button-shaodw:                  inset 0 1px 2px rgba(0, 0, 0, .125) !default;
     }
     &:active,
     &.active {
-        @include box-shadow($value: $button-shaodw);
+        @include box-shadow($value: $button-shadow);
     }
     &.disabled, 
     &[disabled] {
