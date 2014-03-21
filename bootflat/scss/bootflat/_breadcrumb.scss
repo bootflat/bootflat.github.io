@@ -57,8 +57,8 @@ $breadcrumb-arrow-background-color-hover:      $aqua-light !default;
       & li a,
       & li:not(:first-child) span {
           padding: 0 10px 0 25px;
-          height: 35px;
-          line-height: 35px;
+          height: 36px;
+          line-height: 36px;
       }
       & li:first-child a {
           padding: 0 10px;
@@ -76,23 +76,23 @@ $breadcrumb-arrow-background-color-hover:      $aqua-light !default;
       & li a:before,
       & li a:after {
           position: absolute;
-          top: 0;
+          top: -1px;
           content: '';
           width: 0;
           height: 0;
-          border-top: 17px solid transparent;
-          border-bottom: 17px solid transparent;
+          border-top: 18px solid transparent;
+          border-bottom: 18px solid transparent;
       }
       & li a:before {
           right: -10px;
-          border-left-width: 10px;
+          border-left-width: 11px;
           border-left-style: solid;
           border-left-color: $breadcrumb-arrow-background-color;
           z-index: 3;
       }
       & li a:after{
           right: -11px;
-          border-left: 10px solid darken($breadcrumb-arrow-background-color, 10%);
+          border-left: 11px solid darken($breadcrumb-arrow-background-color, 10%);
           z-index: 2;
       }
       & li a:hover,
