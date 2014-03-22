@@ -4,7 +4,7 @@ BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.1.0 CSS framework. I
 
 Bootflat is built on the foundations of Bootstrap, visioned in a stunning flat design. Bootstrap itself is a trusted, reliable and proven tool for developers. Built with `Sass 3.3.3`.
 
-Bootflat is compatible with the following browsers: `IE8, IE9, IE10, Firefox, Safari, Opera, Chrome`.
+Bootflat is compatible with the following browsers: `IE8, IE9, IE10, IE11, Firefox, Safari, Opera, Chrome`.
 
 Thanks for supporting our framework, and enjoy!
 
@@ -27,7 +27,7 @@ Bootflat's components are built with HTML5 and CSS3. The pages use `header`, `na
 Bootflat uses lightweight high-function plugins for maximum performance, keeping CSS and JS file sizes down.
 
 ### 4. Mobile first
-Bootflat is fully responsive, built for mobile-first in mind. It provides off screen navigation, and almost all the widgets are compatible with all screen sizes. 
+Bootflat is fully responsive, built for mobile-first in mind. It provides off screen navigation, and almost all the widgets are compatible with all screen sizes.
 
 ## Manual Start
 Install with [bower](http://bower.io/)?
