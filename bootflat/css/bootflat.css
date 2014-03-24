@@ -757,7 +757,7 @@ blockquote {
   padding: 0 !important;
   width: 20px;
   height: 20px;
-  background: url("../bootflat/img/check_flat/default.png") no-repeat;
+  background: url("../img/check_flat/default.png") no-repeat;
   border: none;
   cursor: pointer;
 }
