@@ -748,6 +748,11 @@ blockquote {
   padding-left: 0;
 }
 
+.checkbox label, .radio label {
+  position: relative;
+  top: 2px;
+}
+
 .icheckbox_flat,
 .iradio_flat {
   display: inline-block;
