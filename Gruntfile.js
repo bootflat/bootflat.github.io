@@ -7,7 +7,6 @@ module.exports = function(grunt) {
           'js/site.min.js': [
 	          'js/jquery-1.10.1.min.js',
 	          'js/bootstrap.min.js',
-            'js/holder.js',
             'bootflat/js/icheck.min.js',
             'js/application.js'
 	        ]

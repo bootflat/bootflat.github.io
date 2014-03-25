@@ -4,7 +4,6 @@
 
 !function ($) {
   $(function(){
-    Holder.add_theme("new", { background: "#AC92EC", foreground: "#fff", size: 12 }).run();
 
     $('.tooltip-demo').tooltip({
       selector: "[data-toggle=tooltip]",
