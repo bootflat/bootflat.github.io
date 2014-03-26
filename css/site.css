@@ -639,6 +639,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     max-width: 100%;
 }
 /* ----------------------------------
+ * btn-group & labels
+ * ---------------------------------- */
+.blank {
+    display: none;
+}
+@media (max-width: 768px) {
+    .blank {
+        display: block;
+        height: 15px;
+    }
+}
+/* ----------------------------------
  * site-footer
  * ---------------------------------- */
 .site-footer {
