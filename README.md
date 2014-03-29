@@ -1,3 +1,14 @@
+ ______   _______  _______ _________ _______  _        _______ _________
+(  ___ \ (  ___  )(  ___  )\__   __/(  ____ \( \      (  ___  )\__   __/
+| (   ) )| (   ) || (   ) |   ) (   | (    \/| (      | (   ) |   ) (
+| (__/ / | |   | || |   | |   | |   | (__    | |      | (___) |   | |
+|  __ (  | |   | || |   | |   | |   |  __)   | |      |  ___  |   | |
+| (  \ \ | |   | || |   | |   | |   | (      | |      | (   ) |   | |
+| )___) )| (___) || (___) |   | |   | )      | (____/\| )   ( |   | |
+|/ \___/ (_______)(_______)   )_(   |/       (_______/|/     \|   )_(
+
+========================================================================
+
 # What is Bootflat?
 
 BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.1.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
@@ -27,7 +38,7 @@ Bootflat's components are built with HTML5 and CSS3. The pages use `header`, `na
 Bootflat uses lightweight high-function plugins for maximum performance, keeping CSS and JS file sizes down.
 
 ### 4. Mobile first
-Bootflat is fully responsive, built for mobile-first in mind. It provides off screen navigation, and almost all the widgets are compatible with all screen sizes. 
+Bootflat is fully responsive, built for mobile-first in mind. It provides off screen navigation, and almost all the widgets are compatible with all screen sizes.
 
 ## Manual Start
 Install with [bower](http://bower.io/)?
@@ -54,4 +65,3 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 ## LICENSE
 
 Bootflat is licensed under the MIT Open Source license. For more information, please see the LICENSE file in this repository.
-
