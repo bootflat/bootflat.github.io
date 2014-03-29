@@ -1,3 +1,8 @@
+![Bootflat](http://bootflat.github.io/img/ascii-logo.gif "Bootflat")
+
+
+***
+
 # What is Bootflat?
 
 BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.1.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
