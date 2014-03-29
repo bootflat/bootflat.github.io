@@ -16,7 +16,7 @@
     "url": "https://github.com/bootflat/bootflat.github.io/issues"
   },
   "license": "MIT",
-  "repository" : { 
+  "repository" : {
      "type" : "git",
      "url" : "https://github.com/bootflat/bootflat.github.io.git"
    },
