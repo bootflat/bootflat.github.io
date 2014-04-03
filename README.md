@@ -37,7 +37,9 @@ Bootflat is fully responsive, built for mobile-first in mind. It provides off sc
 ## Manual Start
 Install with [bower](http://bower.io/)?
 
-`bower install bootflatv2`
+`bower install Bootflat#<version>`
+
+The current version is: `2.0.0`
 
 The source files are in the `bootflat/` folder. You can just grab the `bootflat/css/`, `bootflat/scss/`,`bootflat/js/` and `bootflat/img/` folders and you'll be good to go.
 

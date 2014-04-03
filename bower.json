@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "homepage": "http://bootflat.github.io",
   "authors": [
-    "Dong Xu <bootflat2@gmail.com>"
+    "flathemes <info@flathemes.com>"
   ],
   "description": "BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.1.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.",
   "repository": {
@@ -24,7 +24,6 @@
     "bootstrap"
   ],
   "license": "MIT",
-  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -32,6 +31,8 @@
     "angularicons",
     "documentation.html",
     "getting-started.html",
-    "index.html"
+    "index.html",
+    "test",
+    "tests"
   ]
 }
