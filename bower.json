@@ -24,7 +24,6 @@
     "bootstrap"
   ],
   "license": "MIT",
-  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -32,6 +31,8 @@
     "angularicons",
     "documentation.html",
     "getting-started.html",
-    "index.html"
+    "index.html",
+    "test",
+    "tests"
   ]
 }
