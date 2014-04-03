@@ -1,9 +1,9 @@
-    __________               __    _____.__          __   
-    \______   \ ____   _____/  |__/ ____\  | _____ _/  |_ 
+    __________               __    _____.__          __
+    \______   \ ____   _____/  |__/ ____\  | _____ _/  |_
      |    |  _//  _ \ /  _ \   __\   __\|  | \__  \\   __\
-     |    |   (  <_> |  <_> )  |  |  |  |  |__/ __ \|  |  
-     |______  /\____/ \____/|__|  |__|  |____(____  /__|  
-            \/                                    \/      
+     |    |   (  <_> |  <_> )  |  |  |  |  |__/ __ \|  |
+     |______  /\____/ \____/|__|  |__|  |____(____  /__|
+            \/                                    \/
 
 ***
 
@@ -43,12 +43,13 @@ Install with [bower](http://bower.io/)?
 
 `bower install Bootflat#<version>`
 
-The current version is: `2.0.0`
+The current version is: `2.0.1`
 
 The source files are in the `bootflat/` folder. You can just grab the `bootflat/css/`, `bootflat/scss/`,`bootflat/js/` and `bootflat/img/` folders and you'll be good to go.
 
 ## Changelog:
 
+2014/4/3 version 2.0.1
 2014/3/6 version 2.0.0
 
 ## Links:

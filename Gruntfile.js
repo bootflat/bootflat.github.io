@@ -3,7 +3,21 @@ module.exports = function(grunt) {
   grunt.initConfig({
     uglify: {
       options: {
-          banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n',
+          banner: '/*\n * <%= pkg.name %> <%= pkg.version %>\n' + 
+			  	  ' *\n' +
+				  ' * Description: <%= pkg.description %>\n' +
+			  	  ' *\n' +
+		          ' * Homepage: <%= pkg.homepage %>\n' +
+			  	  ' *\n' +
+				  ' * By @<%= pkg.author %>\n' +
+				  ' *\n' +
+			  	  ' * Last modify time: <%= grunt.template.today("yyyy-mm-dd") %>\n' +
+				  ' *\n' +
+			  	  ' * Licensed under the MIT license. Please see LICENSE for more information.\n' +
+				  ' *\n' +
+			  	  ' * Copyright 2013 FLATHEMES.\n' +
+				  ' *\n' +
+		          ' */\n',
           sourceMap: true,
           sourceMapIncludeSources: true
       },
@@ -21,7 +35,21 @@ module.exports = function(grunt) {
     cssmin: {
       options: {
           keepSpecialComments: 0,
-          banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n',
+          banner: '/*\n * <%= pkg.name %> <%= pkg.version %>\n' + 
+			  	  ' *\n' +
+				  ' * Description: <%= pkg.description %>\n' +
+			  	  ' *\n' +
+		          ' * Homepage: <%= pkg.homepage %>\n' +
+			  	  ' *\n' +
+				  ' * By @<%= pkg.author %>\n' +
+				  ' *\n' +
+			  	  ' * Last modify time: <%= grunt.template.today("yyyy-mm-dd") %>\n' +
+				  ' *\n' +
+			  	  ' * Licensed under the MIT license. Please see LICENSE for more information.\n' +
+				  ' *\n' +
+			  	  ' * Copyright 2013 FLATHEMES.\n' +
+				  ' *\n' +
+		          ' */\n',
       },
       dist: {
         files: {
@@ -40,6 +68,21 @@ module.exports = function(grunt) {
           'bootflat/css/bootflat.css': 'bootflat/scss/bootflat.scss'
         },
         options: {
+          banner: '/*\n * <%= pkg.name %> <%= pkg.version %>\n' + 
+			  	  ' *\n' +
+				  ' * Description: <%= pkg.description %>\n' +
+			  	  ' *\n' +
+		          ' * Homepage: <%= pkg.homepage %>\n' +
+			  	  ' *\n' +
+				  ' * By @<%= pkg.author %>\n' +
+				  ' *\n' +
+			  	  ' * Last modify time: <%= grunt.template.today("yyyy-mm-dd") %>\n' +
+				  ' *\n' +
+			  	  ' * Licensed under the MIT license. Please see LICENSE for more information.\n' +
+				  ' *\n' +
+			  	  ' * Copyright 2013 FLATHEMES.\n' +
+				  ' *\n' +
+		          ' */\n',
           style: 'expanded',
           sourcemap: 'true'
         }
