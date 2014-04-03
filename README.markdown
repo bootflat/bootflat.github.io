@@ -7,7 +7,7 @@
 
 ***
 
-# What is Bootflat?
+# What is Bootflat? [![Bower version](https://badge.fury.io/bo/Bootflat.png)](http://badge.fury.io/bo/Bootflat)
 
 BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.1.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
 
