@@ -43,8 +43,6 @@ Install with [bower](http://bower.io/)?
 
 `bower install Bootflat#<version>`
 
-The current version is: `2.0.1`
-
 The source files are in the `bootflat/` folder. You can just grab the `bootflat/css/`, `bootflat/scss/`,`bootflat/js/` and `bootflat/img/` folders and you'll be good to go.
 
 ## Changelog:
