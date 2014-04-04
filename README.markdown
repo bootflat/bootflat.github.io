@@ -41,7 +41,7 @@ Bootflat is fully responsive, built for mobile-first in mind. It provides off sc
 
 * Clone the repo: `git clone https://github.com/bootflat/bootflat.github.io.git`
 * Install with [npm](https://www.npmjs.org/) `npm install bootflat`
-* Install with [bower](http://bower.io/)? `bower install Bootflat`
+* Install with [bower](http://bower.io/) `bower install Bootflat`
 
 The source files are in the `bootflat/` folder. You can just grab the `bootflat/css/`, `bootflat/scss/`,`bootflat/js/` and `bootflat/img/` folders and you'll be good to go.
 
