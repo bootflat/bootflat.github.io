@@ -7,7 +7,7 @@
 
 ***
 
-# What is Bootflat? [![Bower version](https://badge.fury.io/bo/Bootflat.png)](http://badge.fury.io/bo/Bootflat)
+# What is Bootflat? [![Bower version](https://badge.fury.io/bo/Bootflat.png)](http://badge.fury.io/bo/Bootflat) [![NPM version](https://badge.fury.io/js/bootflat.png)](http://badge.fury.io/js/bootflat)
 
 BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.1.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
 
@@ -23,11 +23,10 @@ For the designers, we offer a [free PSD](https://github.com/bootflat/Bootflat.UI
 
 ![Bootflat UI Kit](http://bootflat.github.io/img/bootflat-ui-kit.jpg "Bootflat UI Kit")
 
-
 ## Features:
 
-### 1. Bootstrap 3.1.0
-Bootflat is built on Bootstrap 3.1.0: the sleek, intuitive, and powerful mobile-first front-end framework for faster and easier web development.
+### 1. Bootstrap 3.1.1
+Bootflat is built on Bootstrap 3.1.1: the sleek, intuitive, and powerful mobile-first front-end framework for faster and easier web development.
 
 ### 2. HTML5 & CSS3
 Bootflat's components are built with HTML5 and CSS3. The pages use `header`, `nav` and `section` to build the layout. Bootflat also comes with several splendid color schemes built-in, and allows for easy customization.
@@ -38,23 +37,26 @@ Bootflat uses lightweight high-function plugins for maximum performance, keeping
 ### 4. Mobile first
 Bootflat is fully responsive, built for mobile-first in mind. It provides off screen navigation, and almost all the widgets are compatible with all screen sizes.
 
-## Manual Start
-Install with [bower](http://bower.io/)?
+## Quick start
 
-`bower install Bootflat#<version>`
+* Clone the repo: `git clone https://github.com/bootflat/bootflat.github.io.git`
+* Install with [npm](https://www.npmjs.org/) `npm install bootflat`
+* Install with [bower](http://bower.io/)? `bower install Bootflat`
 
 The source files are in the `bootflat/` folder. You can just grab the `bootflat/css/`, `bootflat/scss/`,`bootflat/js/` and `bootflat/img/` folders and you'll be good to go.
+
+## Table of contents:
+
++ [Home page](http://bootflat.github.io)
++ [Getting Started](http://bootflat.github.io/getting-started.html)
++ [Documentation](http://bootflat.github.io/documentation.html)
++ [Free PSD](http://bootflat.github.io/free-psd.html)
 
 ## Changelog:
 
 2014/4/3 version 2.0.1
+
 2014/3/6 version 2.0.0
-
-## Links:
-
-+ [Bootflat Home page](http://bootflat.github.io/)
-+ [Bootflat Documentation page](http://bootflat.github.io/documentation.html)
-+ [Bootflat PSD page](http://bootflat.github.io/free-psd.html)
 
 ## Community
 
