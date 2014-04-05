@@ -66,3 +66,5 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 ## LICENSE
 
 Bootflat is licensed under the MIT Open Source license. For more information, please see the LICENSE file in this repository.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bootflat/bootflat.github.io/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
