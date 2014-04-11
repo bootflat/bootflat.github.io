@@ -35,3 +35,6 @@ validation-report.json
 # Folders to ignore
 node_modules
 
+# Composer
+composer.lock
+/vendor
