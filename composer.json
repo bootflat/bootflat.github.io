@@ -2,11 +2,15 @@
     "name": "bootflat/bootflat",
     "description": "An open source Flat UI KIT based on Bootstrap (3.1.1). A faster, easier and less repetitive way for web developers to create elegant web apps.",
     "keywords": [
-        "css",
-        "scss",
-        "flat",
-        "framework",
-        "web"
+		"mobile",
+		"html5",
+		"css3",
+		"scss",
+		"bootflat",
+		"bootstrap",
+		"flat",
+		"flat ui",
+		"ui"
     ],
     "homepage": "http://bootflat.github.io/",
     "authors": [

@@ -6,11 +6,15 @@
   "author":"Flathemes <info@flathemes.com>",
   "homepage": "http://bootflat.github.com/",
   "keywords": [
-    "bootstrap",
-    "bootflat",
-    "flat ui",
-    "flat",
-    "ui"
+	"mobile",
+	"html5",
+	"css3",
+	"scss",
+	"bootflat",
+	"bootstrap",
+	"flat",
+	"flat ui",
+	"ui"
   ],
   "bugs": {
     "url": "https://github.com/bootflat/bootflat.github.io/issues"
