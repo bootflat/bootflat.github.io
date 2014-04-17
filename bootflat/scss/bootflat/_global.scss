@@ -56,7 +56,7 @@ $darkgray-light:              #656D78 !default;
 @mixin exports($name) {
   @if index($modules, $name) {
   } @else {
-    $modules: append($modules, $name);
+    $modules: append($modules, $name) !global;
     @content;
   }
 }
