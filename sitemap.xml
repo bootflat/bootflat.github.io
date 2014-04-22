@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<!-- Free Sitemap Generator http://www.sitemapx.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://bootflat.github.io/</loc>
+<priority>1.0</priority>
+<lastmod>2014-04-22T04:00:57+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<loc>http://bootflat.github.io/documentation.html</loc>
+<priority>0.8</priority>
+<lastmod>2014-04-22T04:00:57+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<loc>http://bootflat.github.io/free-psd.html</loc>
+<priority>0.8</priority>
+<lastmod>2014-04-22T04:00:57+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<loc>http://bootflat.github.io/getting-started.html</loc>
+<priority>0.8</priority>
+<lastmod>2014-04-22T04:00:57+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<loc>http://bootflat.github.io/index.html</loc>
+<priority>0.8</priority>
+<lastmod>2014-04-22T04:00:57+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+</urlset>
