@@ -47,6 +47,8 @@ Bootflat is fully responsive, built for mobile-first in mind. It provides off sc
 
 The source files are in the `bootflat/` folder. You can just grab the `bootflat/css/`, `bootflat/scss/`,`bootflat/js/` and `bootflat/img/` folders and you'll be good to go.
 
+Check [minimal-example.html](minimal-example.html) for example code.
+
 ## Table of contents:
 
 + [Home page](http://bootflat.github.io)
