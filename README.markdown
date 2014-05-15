@@ -48,26 +48,26 @@ Bootflat is fully responsive, built for mobile-first in mind. It provides off sc
 The source files are in the `bootflat/` folder. You can just grab the `bootflat/css/`, `bootflat/scss/`,`bootflat/js/` and `bootflat/img/` folders and you'll be good to go.
 
 
-<!doctype html>
-<html>
-    <head>
-        <title>Minimal Bootflat example</title>
-        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
-    </head>
+    <!doctype html>
+    <html>
+        <head>
+            <title>Minimal Bootflat example</title>
+            <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
+        </head>
 
-    <body>
-        <h1>Test bootflat</h1>
-        <a class="btn btn-primary">Flat button</a>
+        <body>
+            <h1>Test bootflat</h1>
+            <a class="btn btn-primary">Flat button</a>
 
-        <!-- Bootstrap -->
-        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+            <!-- Bootstrap -->
+            <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+            <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-        <!-- Bootflat's JS files.-->
-        <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
-    </body>
-</html>
+            <!-- Bootflat's JS files.-->
+            <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
+        </body>
+    </html>
 
 
 ## Table of contents:
