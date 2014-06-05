@@ -807,6 +807,101 @@
           </div>
         </div>
       </div>
+	  <!-- Stepper
+      ================================================== -->
+	  <div class="example">
+        <h2 class="example-title">Stepper <span>(<b>How to use</b>: https://github.com/benplum/Stepper)</span></h2>
+        <div class="row">
+          <div class="col-md-6">
+			<input type="number" class="form-control" />
+          </div>
+          <div class="col-md-6">
+			<input type="number" class="form-control" disabled/>
+          </div>
+        </div>
+      </div>
+	  <!-- Selecter
+      ================================================== -->
+	  <div class="example">
+        <h2 class="example-title">Selecter <span>(<b>How to use</b>: https://github.com/benplum/Selecter)</span></h2>
+        <div class="row">
+          <div class="col-md-3">
+			<select name="selecter_basic" class="selecter_1">
+				<optgroup label="Group One">
+					<option value="1">One</option>
+					<option value="2">Two</option>
+					<option value="3">Three</option>
+				</optgroup>
+				<optgroup label="Group One">
+					<option value="4">Four</option>
+					<option value="5">Five</option>
+					<option value="6">Six</option>
+					<option value="7">Seven</option>
+				</optgroup>
+				<optgroup label="Group Three">
+					<option value="8">Eight</option>
+					<option value="9">Nine</option>
+					<option value="10">Ten</option>
+				</optgroup>
+			</select>
+		  </div>
+          <div class="col-md-3">
+			<select name="selecter_basic" class="selecter_2" data-selecter-options='{"label":"Jump Sites","external":"true"}'>
+				<option value="http://google.com">Google Search</option>
+				<option value="http://boingboing.com">BoingBoing</option>
+				<option value="http://cnn.com">CNN News</option>
+			</select>
+		  </div>
+		  <div class="col-md-3">
+			<select name="selecter_basic" class="selecter_3"  data-selecter-options='{"cover":"true"}'>
+				<option value="1">One</option>
+				<option value="2">Two</option>
+				<option value="3">Three</option>
+				<option value="4">Four</option>
+				<option value="5">Five</option>
+			</select>
+		  </div>
+          <div class="col-md-3">
+			<select name="selecter_basic" class="selecter_4" disabled="disabled">
+				<option value="1">One</option>
+				<option value="2">Two</option>
+				<option value="3">Three</option>
+				<option value="4">Four</option>
+				<option value="5">Five</option>
+			</select>
+          </div>
+		</div>
+        <div class="row">
+          <div class="col-md-6">
+			<select name="selecter_multiple" class="selecter_5" multiple="multiple">
+				<option value="1" >One</option>
+				<option value="2" disabled>Two</option>
+				<option value="3" selected>Three</option>
+				<option value="4">Four</option>
+				<option value="5">Five</option>
+				<option value="6">Six</option>
+				<option value="7">Seven</option>
+				<option value="8">Eight</option>
+				<option value="9">Nine</option>
+				<option value="10">Ten</option>
+			</select>
+		  </div>
+          <div class="col-md-6">
+			<select name="selecter_multiple" class="selecter_6" multiple="multiple" disabled="disabled">
+				<option value="1" >One</option>
+				<option value="2" disabled>Two</option>
+				<option value="3" selected>Three</option>
+				<option value="4">Four</option>
+				<option value="5">Five</option>
+				<option value="6">Six</option>
+				<option value="7">Seven</option>
+				<option value="8">Eight</option>
+				<option value="9">Nine</option>
+				<option value="10">Ten</option>
+			</select>
+		  </div>
+        </div>
+      </div>
       <!-- Checkboxes and Radios
       ================================================== -->
       <div class="example">
@@ -873,6 +968,30 @@
             </div>
           </div>
         </div>
+      </div>
+	  <!--Toggle
+      ================================================== -->
+      <div class="example">
+		  <h2 class="example-title">Toggle <span>(Used for <code>checkbox</code> or <code>radio</code>)<span></h2>
+        <div class="row">
+		  <div class="col-md-4">
+			<label class="toggle">
+			  <input type="checkbox" >
+			  <span class="handle"></span>
+			</label>
+		  </div>
+		  <div class="col-md-4">
+			<label class="toggle">
+			  <input type="checkbox" checked>
+			  <span class="handle"></span>
+			</label>
+		  </div>
+		  <div class="col-md-4">
+			<label class="toggle">
+			  <input type="checkbox" disabled>
+			  <span class="handle"></span>
+			</label>
+		  </div>
       </div>
       <!-- Alerts
       ================================================== -->

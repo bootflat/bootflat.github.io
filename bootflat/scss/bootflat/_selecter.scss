@@ -1,0 +1,257 @@
+// Variables
+//------------------------------------------------------
+$selecter-primary:                     $aqua-dark !default;
+
+$selecter-border-color:                $mediumgray-dark !default;
+$selecter-background-color:            $white !default;
+$selecter-disabled-color:              $mediumgray-dark !default;
+$selecter-disabled-background-color:   $lightgray-dark !default;
+$selecter-radius-value:                4px !default;
+$selecter-arrow-width:                 20px !default;
+
+$selecter-group-color:                 $mediumgray-dark !default;
+$selecter-group-background-color:      $lightgray-light !default;
+
+$selecter-item-border-color:		   $lightgray-dark !default;
+$selecter-item-hover:		           $lightgray-dark !default;
+$selecter-item-selected:		       $aqua-dark !default;
+$selecter-item-selected-border-color:  $aqua-light !default;
+
+
+// Exports
+//------------------------------------------------------
+
+@include exports("selecter") {
+	.selecter {
+		display: block;
+		position: relative;
+		max-width: 100%;
+		z-index: 1;
+		outline: none;
+
+		& .selecter-element {
+			display: none;
+			*left: -999999px;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			@include opacity($opacity: 0, $filter: true);
+			width: 100%;
+			z-index: 0;
+		}
+		& .selecter-element,
+		& .selecter-element:focus {
+			outline: none;
+			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+			-webkit-tap-highlight-color: transparent;
+		}
+
+		& .selecter-selected {
+			background-color: $selecter-background-color;
+			border: 1px solid $selecter-border-color;
+			@include radius($value: $selecter-radius-value);
+			cursor: pointer;
+			display: block;
+			overflow: hidden;
+			padding: 6px 10px;
+			position: relative;
+			text-overflow: clip;
+			z-index: 2;
+
+			&:after {
+				position: absolute;
+				top: 14px;
+				right: 10px;
+				content: "";
+				width: 0;
+				height: 0;
+				border-top: 4px solid $black;
+				border-left: 4px solid transparent;
+				border-right: 4px solid transparent;
+			}
+		}
+		& .selecter-options {
+			border: 1px solid $selecter-border-color;
+			border-width: 0 1px 1px;
+			@include radius($value: 0 0 $selecter-radius-value $selecter-radius-value);
+			@include box-shadow($value: 0 6px 12px rgba(0,0,0,.175));
+			background-color: $selecter-background-color;
+			display: none;
+			left: 0;
+			max-height: 260px;
+			overflow: auto;
+			overflow-x: hidden;
+			position: absolute;
+			top: 100%;
+			width: 100%;
+			*width: auto;
+			z-index: 50;
+		}
+		& .selecter-group {
+			border-bottom: 1px solid $selecter-item-border-color;
+			color: $selecter-group-color;
+			background-color: $selecter-group-background-color;
+			display: block;
+			font-size: 11px;
+			padding: 5px 10px 4px;
+			text-transform: uppercase;
+		}
+		& .selecter-item {
+			background-color: $selecter-background-color;
+			border-bottom: 1px solid $selecter-item-border-color;
+			cursor: pointer;
+			display: block;
+			margin: 0;
+			overflow: hidden;
+			padding: 6px 10px;
+			text-overflow: ellipsis;
+			width: 100%;
+
+			&.selected {
+				color: $white;
+				border-bottom-color: $selecter-item-selected-border-color;
+				background-color: $selecter-item-selected;
+			}
+			&.disabled {
+				color: $selecter-disabled-color;
+				cursor: default;
+			}
+			&:first-child {
+				@include radius($value: 0);
+			}
+			&:last-child {
+				@include radius($value: 0 0 $selecter-radius-value $selecter-radius-value);
+				border-bottom: 0;
+			}
+		}
+
+		& .selecter-item:hover {
+			background-color: $selecter-item-hover;
+		}
+		& .selecter-item.selected:hover {
+			background-color: $selecter-item-selected;
+		}
+
+		& .selecter-item.disabled:hover,
+		&:hover .selecter-selected,
+		&.disabled .selecter-item:hover {
+			background-color: $selecter-background-color;
+		}
+
+		/* Open */
+		&.open {
+			outline: 0;
+			z-index: 3;
+
+			& .selecter-selected {
+				border: 1px solid $selecter-primary;
+				@include radius($value: $selecter-radius-value $selecter-radius-value 0 0);
+				z-index: 51;
+			}
+		}
+
+		&.open .selecter-selected,
+		&.focus .selecter-selected {
+			background-color: $selecter-background-color;
+		}
+
+		/* 'Cover' Positioning */
+		&.cover {
+			& .selecter-options {
+				@include radius($value: $selecter-radius-value);
+				border-width: 1px;
+				top: 0;
+
+				& .selecter-item.first {
+					@include radius($value: $selecter-radius-value $selecter-radius-value 0 0);
+				}
+
+			}
+
+			&.open .selecter-selected {
+				@include radius($value: $selecter-radius-value $selecter-radius-value 0 0);
+				z-index: 49;
+			}
+		}
+
+
+		/* 'Bottom' Positioning */
+		&.bottom {
+			& .selecter-options {
+				border-width: 1px 1px 0;
+				bottom: 100%;
+				top: auto;
+			}
+			& .selecter-item:last-child {
+				border: none;
+			}
+			&.open .selecter-selected {
+				@include radius($value: 0 0 $selecter-radius-value $selecter-radius-value);
+			}
+			&.open .selecter-options {
+				@include radius($value: $selecter-radius-value $selecter-radius-value 0 0);
+			}
+		}
+
+		/* 'Bottom' + 'Cover' Positioning */
+		&.bottom.cover {
+			& .selecter-options {
+				bottom: 0;
+				top: auto;
+			}
+			&.open .selecter-selected,
+			&.open .selecter-options {
+				@include radius($value: $selecter-radius-value);
+			}
+		}
+
+
+		/* Multiple Select */
+		&.multiple .selecter-options {
+			@include radius($value: $selecter-radius-value);
+			border-width: 1px;
+			box-shadow: none;
+			display: block;
+			position: static;
+			width: 100%;
+		}
+
+		/* 'Disabled' State */
+		&.disabled {
+			& .selecter-selected {
+				background-color: $selecter-disabled-background-color;
+				border-color: $selecter-disabled-background-color;
+				color: $selecter-disabled-color;
+				cursor: default;
+			}
+			& .selecter-options {
+				background-color: $selecter-disabled-background-color;
+				border-color: $selecter-disabled-background-color;
+			}
+			& .selecter-group,
+			& .selecter-item {
+				background-color: $selecter-disabled-background-color;
+				border-color: $selecter-item-border-color;
+				color: $selecter-disabled-color;
+				cursor: default;
+			}
+			& .selecter-item.selected {
+				background-color: $selecter-primary;
+				@include opacity($opacity: 45, $filter: true);
+				color: $white;
+			}
+		}
+
+
+		/* Scroller Support */
+		& .selecter-options.scroller {
+			overflow: hidden;
+
+			& .scroller-content {
+				max-height: 260px;
+				padding: 0;
+			}
+		}
+
+	}
+}

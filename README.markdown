@@ -79,6 +79,8 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 
 ## Changelog:
 
+2014/6/5 version 2.0.2 `add wigets: Toggle, Selecter, Stepper`
+
 2014/4/3 version 2.0.1 `support bootstrap 3.1.1`
 
 2014/3/6 version 2.0.0 `support bootstrap 3.0.1`

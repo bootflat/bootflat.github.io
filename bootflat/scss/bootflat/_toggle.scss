@@ -1,0 +1,94 @@
+// Variables
+//------------------------------------------------------
+$toggle-height:                         32px !default;
+$toggle-checkbox-opacity:               0 !default;
+
+$toggle-transition-value:               all .25s ease-in-out !default;
+
+$toggle-default-background-color:		$white !default;
+$toggle-checked-background-color:		$grass-light !default;
+$toggle-disabled-background-color:		$lightgray-dark !default;
+
+$toggle-handle-width:					50px !default;
+$toggle-handle-height:					32px !default;
+$toggle-handle-radius:					19px !default;
+
+$toggle-control-width:					30px !default;
+$toggle-control-height:					30px !default;
+$toggle-control-radius:					30px !default;
+
+$toggle-shadow:                         inset 0 0 0 1px lighten($mediumgray-dark, 5%) !default;
+$toggle-control-shadow:                 inset 0 0 0 1px lighten($mediumgray-dark, 5%), 1px 1px 1px lighten($mediumgray-dark, 10%) !default;
+$toggle-checked-shadow:                 inset 0 0 0 1px $lightgray-light, 1px 1px 1px lighten($mediumgray-dark, 10%) !default;
+
+// Exports
+//------------------------------------------------------
+
+@include exports("toggle") {
+
+  /**
+   * toggle
+   * --------------------------------------------------
+   */
+  .toggle {
+	height: $toggle-height;
+
+	& input[type="checkbox"],
+	& input[type="radio"] {
+		width: 0;
+		height: 0;
+		margin: 0;
+		padding: 0;
+		text-indent: -100000px;
+		@include opacity($opacity: $toggle-checkbox-opacity, $filter: true);
+	}
+
+	& .handle {
+		display: block;
+		position: relative;
+		top: -20px;
+		left: 0;
+		width: $toggle-handle-width;
+		height: $toggle-handle-height;
+		background-color: $toggle-default-background-color;
+		@include radius($value: $toggle-handle-radius);
+		@include box-shadow($value:$toggle-shadow);
+
+		&:before,
+		&:after {
+			content: "";
+			position: absolute;
+			top: 1px;
+			left: 1px;
+			display: block;
+			width: $toggle-control-width;
+			height: $toggle-control-height;
+			@include radius($value: $toggle-control-radius);
+			@include transition($toggle-transition-value);
+			background-color: $toggle-default-background-color;
+			@include box-shadow($value:$toggle-control-shadow);
+		}
+
+	}
+	& input[type="checkbox"]:disabled + .handle,
+	& input[type="radio"]:disabled + .handle,
+	& input[type="checkbox"]:disabled + .handle:before,
+	& input[type="radio"]:disabled + .handle:before,
+	& input[type="checkbox"]:disabled + .handle:after,
+	& input[type="radio"]:disabled + .handle:after {
+		@include opacity($opacity: 60, $filter: true);
+		background-color: $toggle-disabled-background-color;
+	}
+
+	& input[type="checkbox"]:checked + .handle:before,
+	& input[type="radio"]:checked + .handle:before {
+		width: $toggle-handle-width;
+		background-color: $toggle-checked-background-color;
+	}
+	& input[type="checkbox"]:checked + .handle:after,
+	& input[type="radio"]:checked + .handle:after {
+		left: 20px;
+		@include box-shadow($value:$toggle-checked-shadow);
+	}
+  }
+}
