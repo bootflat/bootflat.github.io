@@ -10,6 +10,20 @@
       container: "body"
     });
 
+	$("input[type='number']").stepper();
+
+	$(".selecter_1").selecter();
+
+	$(".selecter_2").selecter();
+
+	$(".selecter_3").selecter();
+
+	$(".selecter_4").selecter();
+
+	$(".selecter_5").selecter();
+
+	$(".selecter_6").selecter();
+
     $('.checkbox input').iCheck({
         checkboxClass: 'icheckbox_flat',
         increaseArea: '20%'
@@ -23,4 +37,3 @@
     $('#accordion2').collapse();
   })
 }(window.jQuery)
-
