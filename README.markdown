@@ -66,6 +66,9 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 
             <!-- Bootflat's JS files.-->
             <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
+            <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
+            <script src="https://bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>
+
         </body>
     </html>
 
