@@ -11,9 +11,9 @@
 
 [![Bower version](https://badge.fury.io/bo/Bootflat.png)](http://badge.fury.io/bo/Bootflat) [![NPM version](https://badge.fury.io/js/bootflat.png)](http://badge.fury.io/js/bootflat) [![Build Status](https://travis-ci.org/bootflat/bootflat.github.io.svg?branch=master)](https://travis-ci.org/bootflat/bootflat.github.io)
 
-BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.1.1 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
+BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.2.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
 
-Bootflat is built on the foundations of Bootstrap, visioned in a stunning flat design. Bootstrap itself is a trusted, reliable and proven tool for developers. Built with `Sass 3.3.5`.
+Bootflat is built on the foundations of Bootstrap, visioned in a stunning flat design. Bootstrap itself is a trusted, reliable and proven tool for developers. Built with `Sass 3.3.9`.
 
 Bootflat is compatible with the following browsers: `IE8, IE9, IE10, IE11, Firefox, Safari, Opera, Chrome`.
 
@@ -27,8 +27,8 @@ For the designers, we offer a [free PSD](https://github.com/bootflat/Bootflat.UI
 
 ## Features:
 
-### 1. Bootstrap 3.1.1
-Bootflat is built on Bootstrap 3.1.1: the sleek, intuitive, and powerful mobile-first front-end framework for faster and easier web development.
+### 1. Bootstrap 3.2.0
+Bootflat is built on Bootstrap 3.2.0: the sleek, intuitive, and powerful mobile-first front-end framework for faster and easier web development.
 
 ### 2. HTML5 & CSS3
 Bootflat's components are built with HTML5 and CSS3. The pages use `header`, `nav` and `section` to build the layout. Bootflat also comes with several splendid color schemes built-in, and allows for easy customization.
@@ -52,7 +52,7 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
     <html>
         <head>
             <title>Minimal Bootflat example</title>
-            <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
             <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
         </head>
 
@@ -62,7 +62,7 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 
             <!-- Bootstrap -->
             <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-            <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+            <script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
             <!-- Bootflat's JS files.-->
             <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
@@ -81,6 +81,8 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 + [Free PSD](http://bootflat.github.io/free-psd.html)
 
 ## Changelog:
+
+2014/7/9 version 2.0.3 `support bootstrap 3.2.0 and Sass 3.3.9, add wigets: Calendar, Pricing`
 
 2014/6/5 version 2.0.2 `add wigets: Toggle, Selecter, Stepper`
 

@@ -1,13 +1,13 @@
 /*
  * bootflat 2.0.2
  *
- * Description: BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.1.1 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
+ * Description: BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.2.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
  *
  * Homepage: http://bootflat.github.com/
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2014-06-05
+ * Last modify time: 2014-07-09
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -1065,6 +1065,7 @@ blockquote {
 .checkbox label, .radio label {
   position: relative;
   top: 2px;
+  padding-left: 5px;
 }
 
 .icheckbox_flat,
@@ -1176,6 +1177,231 @@ blockquote {
   -webkit-box-shadow: inset 0 0 0 1px #f5f7fa, 1px 1px 1px #c7ccd3;
      -moz-box-shadow: inset 0 0 0 1px #f5f7fa, 1px 1px 1px #c7ccd3;
           box-shadow: inset 0 0 0 1px #f5f7fa, 1px 1px 1px #c7ccd3;
+}
+
+/**
+ * calendar
+ * --------------------------------------------------
+ */
+.calendar {
+  padding: 20px;
+  color: white;
+  background-color: #fd9883;
+          border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+}
+.calendar .unit {
+  float: left;
+  width: 14.28%;
+  text-align: center;
+}
+.calendar .years .prev {
+  text-align: left;
+}
+.calendar .years .next {
+  text-align: right;
+}
+.calendar .years .prev em, .calendar .years .next em {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  border: 1px solid white;
+          border-radius: 50%;
+
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+}
+.calendar .years .prev em:before, .calendar .years .next em:before {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top: 6px;
+  font-size: 0;
+  content: "";
+  border-style: solid;
+  border-width: 7px;
+}
+.calendar .years .prev em:before {
+  top: 3px;
+  left: 4px;
+  border-color: transparent white transparent transparent;
+}
+.calendar .years .next em:before {
+  top: 3px;
+  left: 13px;
+  border-color: transparent transparent transparent white;
+}
+.calendar .years .prev em:hover, .calendar .years .next em:hover, .calendar .years .prev em:active, .calendar .years .next em:active {
+  border-color: #e9573f;
+}
+.calendar .years .prev em:hover:before, .calendar .years .prev em:active:before {
+  border-color: transparent #e9573f transparent transparent;
+}
+.calendar .years .next em:hover:before, .calendar .years .next em:active:before {
+  border-color: transparent transparent transparent #e9573f;
+}
+.calendar .years .monyear {
+  float: left;
+  width: 71.42%;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+.calendar .days {
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid #ee7f6d;
+}
+.calendar .days .unit {
+  height: 34px;
+  margin-bottom: 3px;
+  line-height: 34px;
+  text-align: center;
+}
+.calendar .days .unit b {
+  width: 34px;
+  height: 34px;
+  font-weight: normal;
+          border-radius: 50%;
+
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+}
+.calendar .days .unit:hover b, .calendar .days .unit:active b, .calendar .days .unit.active b {
+  display: inline-block;
+  color: #e9573f;
+  cursor: pointer;
+  background-color: white;
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.calendar .days .unit.older b {
+  width: auto;
+  height: auto;
+  color: #e9573f;
+  cursor: default;
+  background-color: transparent;
+}
+
+/**
+ * pricing
+ * --------------------------------------------------
+ */
+.pricing ul {
+  padding: 0;
+  list-style: none;
+}
+.pricing .unit {
+  position: relative;
+  display: inline-block;
+  min-width: 250px;
+  text-align: center;
+          border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+}
+.pricing .unit.active {
+  top: 5px;
+  z-index: 1;
+  margin-right: -36px;
+  margin-left: -36px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+          box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+}
+.pricing .unit.active .price-title h3 {
+  font-size: 40px;
+}
+@media screen and (max-width: 767px) {
+  .pricing .unit {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .pricing .unit.active {
+    top: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .pricing .unit.active .price-title h3 {
+    font-size: 30px;
+  }
+}
+.pricing .price-title {
+  padding: 20px 20px 10px;
+  color: #fff;
+          border-top-left-radius: 4px;
+          border-top-right-radius: 4px;
+
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+.pricing .price-title h3, .pricing .price-title h3 > p {
+  margin: 0;
+}
+.pricing .price-body {
+  padding: 20px 20px 10px;
+}
+.pricing .price-body ul {
+  padding-top: 10px;
+}
+.pricing .price-body li {
+  margin-bottom: 10px;
+}
+.pricing .price-body h4 {
+  margin: 0;
+}
+.pricing .price-foot {
+  padding: 20px;
+  background-color: #e6e9ed;
+          border-bottom-right-radius: 4px;
+          border-bottom-left-radius: 4px;
+
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+.pricing .price-primary .price-title {
+  background-color: #4fc1e9;
+}
+.pricing .price-primary .price-body {
+  background-color: #d7f1fa;
+}
+.pricing .price-primary .price-body ul {
+  border-top: 1px solid #aae1f4;
+}
+.pricing .price-success .price-title {
+  background-color: #a0d468;
+}
+.pricing .price-success .price-body {
+  background-color: #ebf6df;
+}
+.pricing .price-success .price-body ul {
+  border-top: 1px solid #d2ebb7;
+}
+.pricing .price-warning .price-title {
+  background-color: #ffce54;
+}
+.pricing .price-warning .price-body {
+  background-color: #fffaed;
+}
+.pricing .price-warning .price-body ul {
+  border-top: 1px solid #ffebba;
 }
 
 /**

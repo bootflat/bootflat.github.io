@@ -6,18 +6,18 @@ body {
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   /*font-family: 'Lato', sans-serif !important;*/
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;  
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 /* ----------------------------------
  * home
  * ---------------------------------- */
 .home {
-    background: url(../img/index.png) no-repeat 50% 100px;    
+    background: url(../img/index.png) no-repeat 50% 100px;
 }
 @media (max-width: 767px) {
     .home {
         background: none;
-    }   
+    }
 }
 /* ----------------------------------
  * icons
@@ -94,10 +94,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     .index {
         padding-top: 0;
         min-height: 600px;
-    } 
+    }
     .index .download-link .btn {
         padding: 15px;
-    }  
+    }
 }
 /* ----------------------------------
  * social
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     vertical-align: top;
 }
 .social a {
-    color: #50c1e9 !important;   
+    color: #50c1e9 !important;
 }
 .social .github-watch {
     width: 105px;
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .desc a:hover,
 .desc a:active {
     color: #50c1e9;
-    text-decoration: none;   
+    text-decoration: none;
 }
 .desc .desc__introduces {
     border-top: 1px dashed #AAB2BD ;
@@ -194,8 +194,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .desc .desc__features p {
     font-size: 16px;
-    color: #888;   
-    line-height: 26px; 
+    color: #888;
+    line-height: 26px;
 }
 @media (max-width: 767px) {
     .desc .desc__introduces h3 {
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     .desc .desc__features .col-md-6 {
         padding: 0 15px;
         text-align: center;
-    }   
+    }
 }
 /* ----------------------------------
  * docs
@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 @media (max-width: 768px) {
     .docs-header {
         padding-top: 0;
-    }   
+    }
 }
 /* ----------------------------------
  * advertisement
@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
  * ---------------------------------- */
 .navbar-custom {
     position: fixed;
-    top: 0; 
+    top: 0;
     left: 0;
     border: none;
     border-radius: 0;
@@ -299,13 +299,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     display: block;
     color: #50c1e9;
 }
-.navbar-custom .nav li a:focus, 
+.navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:hover {
     color: #50c1e9;
 }
 .navbar-custom .nav li a:active,
 .navbar-custom .nav li a.current {
-    border-bottom: 3px solid #50c1e9;   
+    border-bottom: 3px solid #50c1e9;
 }
 .navbar-custom .navbar-toggle {
     position: relative;
@@ -314,7 +314,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-    background-color: #50c1e9;    
+    background-color: #50c1e9;
 }
 .navbar-custom .navbar-toggle .icon-bar {
     background-color: rgba(255, 255, 255, .9);
@@ -328,22 +328,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:active {
     opacity: 1;
-    filter:alpha(opacity=100);    
+    filter:alpha(opacity=100);
 }
 .navbar-default .navbar-collapse {
     border-color: #e7e7e7;
 }
 @media (max-width: 992px) {
-  .navbar-custom .navbar-brand { 
+  .navbar-custom .navbar-brand {
     width: 63px;
     overflow: hidden;
-  } 
+  }
 }
 @media (max-width: 767px) {
   .navbar-custom {
     position: relative;
     top: 0;
-  } 
+  }
   .navbar-custom .navbar-nav > li > a:hover,
   .navbar-custom .navbar-nav > li > a:focus {
     color: #fff;
@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding-right: 400px;
 }
 @media (max-width: 991px) {
-    .details { width: 100%; } 
+    .details { width: 100%; }
 }
 @media (max-width: 767px) {
     .details { padding: 0 15px; }
@@ -497,7 +497,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 200px;
 }
 .example-popover .popover {
-    position: relative;    
+    position: relative;
 }
 @media (max-width: 960px) {
     .tooltip-demo [class*="col-"] {
@@ -509,7 +509,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         width: 160px;
     }
 }
-.example-popover [class*="col-"]:nth-of-type(1) .popover { 
+.example-popover [class*="col-"]:nth-of-type(1) .popover {
     margin-top: 0;
 }
 .example-popover [class*="col-"]:nth-of-type(3) .popover,
@@ -650,9 +650,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         height: 15px;
     }
 }
-/* ----------------------------------
- * site-footer
- * ---------------------------------- */
 .site-footer {
     position: relative;
     z-index: 2000;
@@ -667,7 +664,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .site-footer a:hover,
 .site-footer a:active {
     color: #50c1e9;
-    text-decoration: none;   
+    text-decoration: none;
 }
 .site-footer .row .col-md-4 {
     margin-bottom: 20px;
@@ -685,13 +682,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-size: 14px;
 }
 .site-footer hr {
-    margin: 20px 0;  
+    margin: 20px 0;
     border: none;
     height: 1px;
     width: 100%;
 }
 .site-footer hr.dashed {
-    border-top: 1px dashed #ccc; 
+    border-top: 1px dashed #ccc;
 }
 .site-footer .icon {
     margin-right: 10px;

@@ -1,7 +1,7 @@
 # Meta data
 name:             Bootflat
 authors:          flathemes
-description:      BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.1.1 CSS framework. And, for the designers, we offer a free PSD Download. It provides a faster, easier and less repetitive way for web developers or designers to create elegant web apps.
+description:      BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.2.0 CSS framework. And, for the designers, we offer a free PSD Download. It provides a faster, easier and less repetitive way for web developers or designers to create elegant web apps.
 
 # Dependencies
 pygments:         true
@@ -15,5 +15,5 @@ url:              http://bootflat.github.io
 encoding:         UTF-8
 
 # Custom vars
-current_version:  2.0.2
+current_version:  2.0.3
 repo:             https://github.com/bootflat/bootflat.github.io

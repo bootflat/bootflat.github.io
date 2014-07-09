@@ -1,0 +1,134 @@
+// Variables
+//------------------------------------------------------
+$calendar-background-color:            $bittersweet-light !default;
+$calendar-font-color:                  $white !default;
+$calendar-current-color:               $bittersweet-dark !default;
+
+$calendar-shadow:					   0 1px 2px rgba(0, 0, 0, .2) !default;
+$calendar-radius:                      4px !default;
+
+
+
+// Exports
+//------------------------------------------------------
+
+@include exports("calendar") {
+
+  /**
+   * calendar
+   * --------------------------------------------------
+   */
+	.calendar {
+		padding: 20px;
+		@include radius($type: border-radius, $value: $calendar-radius);
+		color: $white;
+		background-color: lighten($calendar-background-color, 10%);
+		@include box-shadow($value: $calendar-shadow);
+
+		& .unit	{
+				float: left;
+				width: 14.28%;
+				text-align: center;
+		}
+
+		& .years {
+
+			& .prev {
+				text-align: left;
+			}
+			& .next {
+				text-align: right;
+			}
+			& .prev em,
+			& .next em {
+				position: relative;
+				display: inline-block;
+				@include radius($type: border-radius, $value: 50%);
+				border: 1px solid $calendar-font-color;
+				width: 34px;
+				height: 34px;
+				cursor: pointer;
+			}
+			& .prev em:before,
+			& .next em:before {
+				position: absolute;
+				display: block;
+				content: "";
+				margin-top: 6px;
+				border-style: solid;
+				border-width: 7px;
+				width: 0;
+				height: 0;
+				font-size: 0;
+			}
+			& .prev em:before {
+				top: 3px;
+				left: 4px;
+				border-color: transparent $calendar-font-color transparent transparent;
+			}
+			& .next em:before {
+				top: 3px;
+				left: 13px;
+				border-color: transparent transparent transparent $calendar-font-color;
+			}
+			& .prev em:hover,
+			& .next em:hover,
+			& .prev em:active,
+			& .next em:active {
+				border-color: $calendar-current-color;
+			}
+			& .prev em:hover:before,
+			& .prev em:active:before {
+				border-color: transparent $calendar-current-color transparent transparent;
+			}
+
+			& .next em:hover:before,
+			& .next em:active:before {
+				border-color: transparent transparent transparent $calendar-current-color;
+			}
+
+			& .monyear {
+				float: left;
+				width: 71.42%;
+				text-align: center;
+				height: 34px;
+				line-height: 34px;
+			}
+		}
+
+		& .days {
+			margin-top: 15px;
+			padding-top: 15px;
+			border-top: 1px solid lighten($calendar-current-color, 10%);
+			& .unit {
+				margin-bottom: 3px;
+				text-align: center;
+				height: 34px;
+				line-height: 34px;
+
+				& b {
+					@include radius($type: border-radius, $value: 50%);
+					font-weight: normal;
+					width: 34px;
+					height: 34px;
+				}
+				&:hover b,
+				&:active b,
+				&.active b {
+					display: inline-block;
+					background-color: $calendar-font-color;
+					color: $calendar-current-color;
+					cursor: pointer;
+					@include transition (all 0.2s ease-in-out);
+				}
+				&.older b {
+					color: $calendar-current-color;
+					background-color: transparent;
+					cursor: default;
+					width: auto;
+					height: auto;
+				}
+			}
+		}
+	}
+}
