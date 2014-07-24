@@ -183,6 +183,7 @@ $selecter-item-selected-border-color:  $aqua-light !default;
 				top: auto;
 			}
 			& .selecter-item:last-child {
+				@include radius($value: 0);
 				border: none;
 			}
 			&.open .selecter-selected {
