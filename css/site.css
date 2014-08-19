@@ -243,43 +243,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
  * advertisement
  * ---------------------------------- */
 .advertisement {
-  width: auto !important;
-  padding: 10px !important;
-  overflow: hidden; /* clearfix */
-  font-size: 13px !important;
-  line-height: 18px !important;
-  text-align: left;
-  background: #50c1e9 !important;
-  border: 0 !important;
-  border-radius: 4px;
-  box-shadow: inset 0 3px 5px rgba(0,0,0,.075);
-  height: 121px;
-}
-.advertisement-image {
-  margin: 0 !important;
-  position: absolute;
-}
-.advertisement-text {
-  margin-left: 100px !important;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-}
-.advertisement-text a {
-  color: #fff !important;
+	float: right;
 }
 @media (max-width: 767px) {
   .advertisement {
-    position: static;
-    margin-top: 30px;
-    box-shadow: inset 0 3px 5px rgba(0,0,0,.075), 0 1px 0 rgba(255,255,255,.1);
-  }
-}
-@media (min-width: 768px) {
-  .advertisement {
-    position: absolute;
-    top: 5px;
-    right: 15px; /* 15px instead of 0 since box-sizing */
-    padding: 15px !important;
-    width: 300px !important;
+    float: none;
+	text-align: center;
   }
 }
 /* ----------------------------------
