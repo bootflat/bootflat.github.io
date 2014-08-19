@@ -243,12 +243,23 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
  * advertisement
  * ---------------------------------- */
 .advertisement {
-	float: right;
+  width: auto !important;
+  overflow: hidden; /* clearfix */
+  text-align: left;
+  border: 0 !important;
 }
 @media (max-width: 767px) {
   .advertisement {
-    float: none;
-	text-align: center;
+    position: static;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .advertisement {
+    position: absolute;
+    top: 5px;
+    right: 15px; /* 15px instead of 0 since box-sizing */
+    width: 300px !important;
   }
 }
 /* ----------------------------------
