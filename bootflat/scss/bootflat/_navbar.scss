@@ -17,6 +17,9 @@ $navbar-inverse-background-color:            $black !default;
    * navbar
    * --------------------------------------------------
    */
+  .navbar-form {
+	  padding: 0 !important;
+  }
 
   .navbar-default {
       & {
@@ -62,12 +65,12 @@ $navbar-inverse-background-color:            $black !default;
       }
       & .navbar-toggle {
           border-color: darken($navbar-background-color, 15%);
-          background-color: darken($navbar-background-color, 15%); 
+          background-color: darken($navbar-background-color, 15%);
       }
       & .navbar-toggle:hover,
       & .navbar-toggle:focus {
           border-color: darken($navbar-background-color, 10%);
-          background-color: darken($navbar-background-color, 10%); 
+          background-color: darken($navbar-background-color, 10%);
       }
       & .navbar-toggle .icon-bar {
           background-color: $navbar-background-color;
@@ -76,6 +79,8 @@ $navbar-inverse-background-color:            $black !default;
       & .navbar-form {
           border-color: $navbar-item-background-color-hover;
       }
+
+
       & .navbar-nav > .open > a,
       & .navbar-nav > .open > a:hover,
       & .navbar-nav > .open > a:focus {
@@ -157,12 +162,12 @@ $navbar-inverse-background-color:            $black !default;
       }
       & .navbar-toggle {
           border-color: $navbar-inverse-background-color;
-          background-color: $navbar-inverse-background-color; 
+          background-color: $navbar-inverse-background-color;
       }
       & .navbar-toggle:hover,
       & .navbar-toggle:focus {
           border-color: lighten($navbar-inverse-background-color, 10%);
-          background-color: lighten($navbar-inverse-background-color, 10%); 
+          background-color: lighten($navbar-inverse-background-color, 10%);
       }
       & .navbar-toggle .icon-bar {
           background-color: lighten($navbar-inverse-background-color, 55%);
@@ -209,5 +214,3 @@ $navbar-inverse-background-color:            $black !default;
   }
 
 }
-
-

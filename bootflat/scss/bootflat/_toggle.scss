@@ -46,7 +46,7 @@ $toggle-checked-shadow:                 inset 0 0 0 1px $lightgray-light, 1px 1p
 	& .handle {
 		display: block;
 		position: relative;
-		top: $toggle-handle-height * -0.5;
+		top: -20px;
 		left: 0;
 		width: $toggle-handle-width;
 		height: $toggle-handle-height;
