@@ -243,22 +243,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
  * advertisement
  * ---------------------------------- */
 .advertisement {
-  padding: 20px;
   width: auto !important;
   overflow: hidden; /* clearfix */
   text-align: left;
   border: 0 !important;
-  background: #84cad7 !important;
-  border: 0 !important;
   border-radius: 4px;
-  box-shadow: inset 0 3px 5px rgba(0,0,0,.075);
-  height: 121px;
 }
 @media (max-width: 767px) {
   .advertisement {
     position: static;
     margin: 30px 0;
-    box-shadow: inset 0 3px 5px rgba(0,0,0,.075), 0 1px 0 rgba(255,255,255,.1);
   }
 }
 @media (min-width: 768px) {
@@ -266,7 +260,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     position: absolute;
     top: 5px;
     right: 15px; /* 15px instead of 0 since box-sizing */
-    width: 340px !important;
+    width: 300px !important;
   }
 }
 /* ----------------------------------
@@ -342,7 +336,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
  * ---------------------------------- */
 .topic {
     position: relative;
-    padding: 50px 0 110px;
+    padding: 50px 0 210px;
 }
 .topic h3 {
     margin-top: 20px;
