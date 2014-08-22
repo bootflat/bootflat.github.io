@@ -45,7 +45,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
  * index
  * ---------------------------------- */
 .index {
-    padding-top: 100px;
     text-align: center;
     background-color: rgba(255, 255, 255, .9);
     min-height: 746px;
@@ -63,7 +62,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-style: italic;
 }
 .index .download-link {
-    margin: 40px 0 20px;
+    margin: 20px 0;
 }
 .index .download-link .btn {
     padding: 15px 35px;
@@ -90,14 +89,40 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: bold;
     font-size: 16px;
 }
+.index .adpacks {
+	margin: 0 auto 100px;
+	padding: 15px;
+	border-radius: 3px;
+	border: 1px solid #3bafda;
+	width: 380px;
+	min-height: 132px;
+	text-align: left !important;
+}
+.index .adpacks .adpacks-img {
+	float: left;
+	width: 140px;
+}
+
+.index .adpacks .adpacks-text,
+.index .adpacks .adpacks-poweredby {
+	font-size: 13px;
+	line-height: 16px;
+}
+.index .adpacks .adpacks-poweredby {
+	display: block;
+}
 @media (max-width: 767px) {
     .index {
-        padding-top: 0;
         min-height: 600px;
     }
     .index .download-link .btn {
         padding: 15px;
     }
+
+	.index .adpacks {
+		width: 100%;
+		min-height: 132px;
+	}
 }
 /* ----------------------------------
  * social
@@ -243,10 +268,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
  * advertisement
  * ---------------------------------- */
 .advertisement {
+  padding: 15px;
   width: auto !important;
   overflow: hidden; /* clearfix */
   text-align: left;
-  border: 0 !important;
+  border: 1px solid #a4e4ef !important;
   border-radius: 4px;
 }
 @media (max-width: 767px) {
@@ -258,9 +284,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 @media (min-width: 768px) {
   .advertisement {
     position: absolute;
-    top: 5px;
+    top: 15px;
     right: 15px; /* 15px instead of 0 since box-sizing */
-    width: 300px !important;
+    width: 380px !important;
   }
 }
 /* ----------------------------------
@@ -372,6 +398,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .topic .container a.btn {
     padding: 10px 16px;
     text-decoration: none;
+}
+.topic .container a.adpacks-img {
+	float: left;
+	width: 140px;
+}
+.topic .container a.adpacks-text {
+	font-size: 13px;
+	line-height: 16px !important;
+	text-decoration: none;
+}
+.topic .container a.adpacks-poweredby {
+	display: block;
+	font-size: 13px;
+	line-height: 16px !important;
+	text-decoration: none;
+	color: #c5f5fe;
 }
 .topic .github {
     position: relative;
