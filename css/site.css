@@ -662,6 +662,114 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     max-width: 100%;
 }
 /* ----------------------------------
+ * color picker
+ * ---------------------------------- */
+.color-picker-nav a {
+	text-decoration: none !important;
+	color: #0b859c !important;
+	margin: 0 10px;
+}
+.color-picker-nav a:hover {
+	text-decoration: underline !important;
+}
+.color-picker-nav a.current {
+	font-weight: bold;
+}
+.color-wrap {
+	position: relative;
+	clear: both;
+	left: 0;
+	width: 100%;
+	z-index: 500;
+}
+.color-picker {
+	width: 20%;
+	padding-bottom: 18%;
+	color: #FFF;
+	position: relative;
+	float: left;
+	top: 0;
+	bottom: 0;
+}
+.color-item {
+	position: absolute;
+	margin: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 35%;
+}
+.color-item:hover {
+	display: inline;
+    z-index: 999;
+    overflow: hidden;
+	cursor: pointer;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px)
+{
+	.color-picker{
+		width: 50%;
+		color: #FFF;
+	}
+	.color-item{
+		padding: 8%;
+		font-size: 0.875em;
+	}
+	.color-name,.hex-number {
+		position: relative;
+		line-height: 22px;
+		text-align: center;
+	}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px)
+{
+	.color-picker {
+		width: 50%;
+		color: #FFF;
+	}
+	.color-item{
+		padding: 8%;
+		font-size: 0.750em;
+	}
+	.color-name,.hex-number {
+		position: relative;
+		line-height: 22px;
+		text-align: center;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	.color-item{
+		padding: 5%;
+		font-size: 0.750em;
+	}
+	.color-picker{
+		width: 100%;
+		color: #FFF;
+	}
+	.color-name,.hex-number {
+		position: relative;
+		line-height: 12px;
+		text-align: center;
+	}
+}
+
+/* ----------------------------------
  * btn-group & labels
  * ---------------------------------- */
 .blank {
@@ -675,7 +783,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .site-footer {
     position: relative;
-    z-index: 2000;
+    z-index: 400;
     border-top: 1px dashed #AAB2BD;
     padding: 40px 0 20px;
     background-color: #f5f5f5;

@@ -79,8 +79,11 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 + [Getting Started](http://bootflat.github.io/getting-started.html)
 + [Documentation](http://bootflat.github.io/documentation.html)
 + [Free PSD](http://bootflat.github.io/free-psd.html)
++ [Flat UI Color Picker](http://bootflat.github.io/color-picker.html)
 
 ## Changelog:
+
+2014/8/26  add `color picker`, you can make a flat design with it
 
 2014/7/9 version 2.0.3 `support bootstrap 3.2.0 and Sass 3.3.9, add wigets: Calendar, Pricing`
 
