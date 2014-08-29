@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .desc .desc__features .features__photo {
     position: absolute;
-    top: 0;
+    top: -18px;
     left: 0;
 }
 .desc .desc__features h4 {
