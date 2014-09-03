@@ -83,7 +83,7 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 
 ## Changelog:
 
-2014/8/26 version 2.0.4 `add widgets: TimeLine`
+2014/9/3 version 2.0.4 `add widget: TimeLine`
 
 2014/8/26  add `color picker`, you can make a flat design with it
 
