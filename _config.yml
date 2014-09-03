@@ -15,5 +15,5 @@ url:              http://bootflat.github.io
 encoding:         UTF-8
 
 # Custom vars
-current_version:  2.0.3
+current_version:  2.0.4
 repo:             https://github.com/bootflat/bootflat.github.io

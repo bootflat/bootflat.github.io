@@ -83,6 +83,8 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 
 ## Changelog:
 
+2014/8/26 version 2.0.4 `add widgets: TimeLine`
+
 2014/8/26  add `color picker`, you can make a flat design with it
 
 2014/7/9 version 2.0.3 `support bootstrap 3.2.0 and Sass 3.3.9, add wigets: Calendar, Pricing`

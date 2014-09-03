@@ -1,5 +1,5 @@
 /*
- * bootflat 2.0.3
+ * bootflat 2.0.4
  *
  * Description: BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.2.0 CSS framework. It provides a faster, easier and less repetitive way for web developers to create elegant web apps.
  *
@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2014-08-19
+ * Last modify time: 2014-09-03
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -2362,6 +2362,161 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
   color: #aab2bd;
 }
 
+/**
+ * timeline
+ * --------------------------------------------------
+ */
+.timeline dl {
+  position: relative;
+  top: 0;
+  padding: 20px 0;
+  margin: 0;
+}
+.timeline dl:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  z-index: 100;
+  width: 2px;
+  margin-left: -1px;
+  content: '';
+  background-color: #ccd1d9;
+}
+.timeline dl dt {
+  position: relative;
+  top: 30px;
+  z-index: 200;
+  width: 120px;
+  padding: 3px 5px;
+  margin: 0 auto 30px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  background-color: #aab2bd;
+          border-radius: 4px;
+
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+}
+.timeline dl dd {
+  position: relative;
+  z-index: 200;
+}
+.timeline dl dd .circ {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  z-index: 200;
+  width: 22px;
+  height: 22px;
+  margin-left: -11px;
+  background-color: #4fc1e9;
+  border: 4px solid #f5f7fa;
+          border-radius: 50%;
+
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+}
+.timeline dl dd .time {
+  position: absolute;
+  top: 31px;
+  left: 50%;
+  display: inline-block;
+  width: 100px;
+  padding: 10px 20px;
+  color: #4fc1e9;
+}
+.timeline dl dd .events {
+  position: relative;
+  width: 47%;
+  padding: 10px 10px 0;
+  margin-top: 31px;
+  background-color: white;
+          border-radius: 4px;
+
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+}
+.timeline dl dd .events:before {
+  position: absolute;
+  top: 12px;
+  width: 0;
+  height: 0;
+  content: '';
+  border-style: solid;
+  border-width: 6px;
+}
+.timeline dl dd .events .events-object {
+  margin-right: 10px;
+}
+.timeline dl dd .events .events-body {
+  overflow: hidden;
+  zoom: 1;
+}
+.timeline dl dd .events .events-body .events-heading {
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+.timeline dl dd.pos-right .time {
+  margin-left: -100px;
+  text-align: right;
+}
+.timeline dl dd.pos-right .events {
+  float: right;
+}
+.timeline dl dd.pos-right .events:before {
+  left: -12px;
+  border-color: transparent white transparent transparent;
+}
+.timeline dl dd.pos-left .time {
+  margin-left: 0;
+  text-align: left;
+}
+.timeline dl dd.pos-left .events {
+  float: left;
+}
+.timeline dl dd.pos-left .events:before {
+  right: -12px;
+  border-color: transparent transparent transparent white;
+}
+
+@media screen and (max-width: 767px) {
+  .timeline dl:before {
+    left: 60px;
+  }
+  .timeline dl dt {
+    margin: 0 0 30px;
+  }
+  .timeline dl dd .circ {
+    left: 60px;
+  }
+  .timeline dl dd .time {
+    left: 0;
+  }
+  .timeline dl dd.pos-left .time {
+    padding: 10px 0;
+    margin-left: 0;
+    text-align: left;
+  }
+  .timeline dl dd.pos-left .events {
+    float: right;
+    width: 84%;
+  }
+  .timeline dl dd.pos-left .events:before {
+    left: -12px;
+    border-color: transparent white transparent transparent;
+  }
+  .timeline dl dd.pos-right .time {
+    padding: 10px 0;
+    margin-left: 0;
+    text-align: left;
+  }
+  .timeline dl dd.pos-right .events {
+    float: right;
+    width: 84%;
+  }
+}
 /**
  * dropdown-menu
  * --------------------------------------------------

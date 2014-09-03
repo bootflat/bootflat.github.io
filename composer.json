@@ -1,7 +1,7 @@
 {
     "name": "bootflat/bootflat",
     "description": "An open source Flat UI KIT based on Bootstrap (3.2.0). A faster, easier and less repetitive way for web developers to create elegant web apps.",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "keywords": [
 		"mobile",
 		"html5",
