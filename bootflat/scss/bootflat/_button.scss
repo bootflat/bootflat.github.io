@@ -9,7 +9,7 @@ $button-warning:                 $sunflower-dark !default;
 $button-info:                    $mint-dark !default;
 
 $button-normal-hover:            $mediumgray-light !default;
-$button-default-hover:           $button-default !default;
+$button-default-hover:           $mediumgray-light !default;
 $button-primary-hover:           $aqua-light !default;
 $button-success-hover:           $grass-light !default;
 $button-danger-hover:            $grapefruit-light !default;
@@ -86,7 +86,7 @@ $button-shadow:                  inset 0 1px 2px rgba(0, 0, 0, .125) !default;
         &:active, 
         &.active {
             border-color: $button-normal-hover;
-            background-color: $button-normal-hover;           
+            background-color: $button-default-hover;           
         } 
         &,
         &.disabled,
@@ -96,7 +96,7 @@ $button-shadow:                  inset 0 1px 2px rgba(0, 0, 0, .125) !default;
     }
     @at-root .open .dropdown-toggle.btn-default {
         border-color: $button-normal-hover;
-        background-color: $button-normal-hover;      
+        background-color: $button-default-hover;      
     }
 
     @at-root &-primary {
