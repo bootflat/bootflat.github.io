@@ -78,8 +78,9 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 + [Home page](http://bootflat.github.io)
 + [Getting Started](http://bootflat.github.io/getting-started.html)
 + [Documentation](http://bootflat.github.io/documentation.html)
-+ [Free PSD](http://bootflat.github.io/free-psd.html)
 + [Flat UI Color Picker](http://bootflat.github.io/color-picker.html)
++ [Free PSD](http://bootflat.github.io/free-psd.html)
++ [Free Sketch](https://github.com/teracy-official/bootflat-ui-kit.sketch)
 
 ## Changelog:
 
