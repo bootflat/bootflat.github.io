@@ -591,7 +591,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .color-swatches .light,
 .color-swatches .dark {
     width: 50%;
-    height: 50px;
+    height: 30px;
+}
+.color-swatches .bottom {
+    width: 100%;
+    height: 20px;
 }
 .color-swatches .light {
     -webkit-border-radius: 4px 0 0 0;
