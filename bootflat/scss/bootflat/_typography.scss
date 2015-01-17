@@ -1,10 +1,10 @@
 // Variables
 //------------------------------------------------------
-$body-font-color:            $mushroom-dark !default;
+$body-font-color:            darken($mushroom-dark, 15%) !default;
 $body-background-color:      $white !default;
 
-$link-font-color:            $pine-dark !default; 
-$link-font-color-hover:      $pine-light !default; 
+$link-font-color:            $pine-dark !default;
+$link-font-color-hover:      $pine-light !default;
 
 $blockquote-border-color:    $darkgray-light !default;
 
@@ -123,5 +123,3 @@ $image-radius:               4px !default;
   }
 
 }
-
-

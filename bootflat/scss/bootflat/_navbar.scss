@@ -1,9 +1,9 @@
 // Variables
 //------------------------------------------------------
-$navbar-background-color:                    $garlic-dark !default;
-$navbar-background-color-active:             $garlic-light !default;
+$navbar-background-color:                    $white !default;
+$navbar-background-color-active:             $white !default;
 
-$navbar-font-color:                          $white !default;
+$navbar-font-color:                          $mushroom-dark !default;
 $navbar-item-background-color-hover:         $navbar-background-color-active !default;
 
 $navbar-inverse-background-color:            $black !default;
@@ -29,7 +29,7 @@ $navbar-inverse-background-color:            $black !default;
       & .navbar-brand,
       & .navbar-link,
       & .btn-link {
-          color: darken($navbar-background-color, 15%);
+          color: $navbar-font-color;
       }
       & .navbar-brand:hover,
       & .navbar-brand:focus,
@@ -41,17 +41,18 @@ $navbar-inverse-background-color:            $black !default;
       }
       & .navbar-text,
       & .navbar-nav > li > a {
-          color: darken($navbar-background-color, 15%);
+          color: $navbar-font-color;
       }
       & .navbar-nav > li > a:hover,
       & .navbar-nav > li > a:focus {
-          color: $navbar-font-color;
+          color: darken($navbar-background-color, 15%);
+          background-color: $navbar-background-color-active;
       }
       & .navbar-nav > .active > a,
       & .navbar-nav > .active > a:hover,
       & .navbar-nav > .active > a:focus {
-          color: $navbar-font-color;
-          background-color: $navbar-background-color-active;
+          background: $navbar-font-color;
+          color: darken($navbar-background-color, 15%);
       }
       & .btn-link[disabled]:hover,
       fieldset[disabled] & .btn-link:hover,

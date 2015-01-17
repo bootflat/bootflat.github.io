@@ -1,6 +1,6 @@
 // Variables
 //------------------------------------------------------
-$pill-background-color:               $pine-dark !default;
+$pill-background-color:               $mushroom-dark !default;
 $pill-background-color-hover:         $lightgray-dark !default;
 $pill-font-color:                     $mushroom-dark !default;
 $pill-font-color-active:              $white !default;
@@ -26,20 +26,18 @@ $pill-font-color-active:              $white !default;
           color: $pill-background-color;
       }
       & > li > a:hover {
-          color: $pill-font-color;    
+          color: $pill-font-color;
           background-color: $pill-background-color-hover;
       }
       & > .active > a > .badge {
-          color: $pill-background-color;    
+          color: $pill-background-color;
       }
-      & .open > a, 
-      & .open > a:focus, 
+      & .open > a,
+      & .open > a:focus,
       & .open > a:hover {
           color: $pill-font-color;
-          background-color: $pill-background-color-hover;        
+          background-color: $pill-background-color-hover;
       }
   }
 
 }
-
-
