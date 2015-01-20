@@ -2469,7 +2469,6 @@
   }
 .breadcrumb-arrow li + li:before {
   padding: 0;
-  content: "";
   }
 .breadcrumb-arrow li span {
   padding: 0 10px;
