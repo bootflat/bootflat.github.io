@@ -70,6 +70,7 @@ module.exports = function(grunt) {
         files: {
           'css/site.min.css': [
             'css/bootstrap.min.css',
+
             '<%= meta.defaultPath %>/css/<%= pkg.name %>.css',
             'css/site.css'
           ],
