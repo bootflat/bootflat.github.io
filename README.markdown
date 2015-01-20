@@ -4,6 +4,7 @@
 
 ## JisuankeUI 更新记录：
 
+2015/01/20 fontawesome 替换 glyphicons
 2015/01/18 配色适应计蒜客颜色标准
 
 ## Bootflat更新记录：
