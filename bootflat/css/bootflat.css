@@ -2599,27 +2599,27 @@
   }
 
 .input-group-btn .btn + .btn {
-  border-color: #96a0ad;
+  border-color: transparent;
   border-style: solid;
   border-width: 1px;
   }
 .input-group-btn .btn + .btn.btn-default {
-  border-color: #ededed;
+  border-color: transparent;
   }
 .input-group-btn .btn + .btn.btn-primary {
-  border-color: #516a76;
+  border-color: transparent;
   }
 .input-group-btn .btn + .btn.btn-info {
-  border-color: #007268;
+  border-color: transparent;
   }
 .input-group-btn .btn + .btn.btn-success {
-  border-color: #419645;
+  border-color: transparent;
   }
 .input-group-btn .btn + .btn.btn-warning {
-  border-color: #e2aa00;
+  border-color: transparent;
   }
 .input-group-btn .btn + .btn.btn-danger {
-  border-color: #fd3d00;
+  border-color: transparent;
   }
 
 .input-group-addon {
