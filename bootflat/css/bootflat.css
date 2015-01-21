@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2015-01-20
+ * Last modify time: 2015-01-21
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -3203,6 +3203,7 @@
   float: left;
   width: 14.28%;
   text-align: center;
+  cursor: pointer;
   }
 .calendar .years .prev {
   text-align: left;
@@ -3294,6 +3295,49 @@
   color: #4caf50;
   cursor: default;
   background-color: transparent;
+  }
+
+.unit:hover {
+  color: #4caf50;
+  }
+
+.unit-t {
+  text-align: center;
+  cursor: pointer;
+  }
+.unit-t.active, .unit-t:active b, .unit-t:hover b {
+  display: inline-block;
+  color: #4caf50;
+  cursor: pointer;
+  }
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  }
+
+#datetimepicker {
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  }
+#datetimepicker li {
+  text-align: center;
+  }
+#datetimepicker li a:hover {
+  color: #4caf50;
+  cursor: pointer;
+  background-color: transparent;
+  }
+#datetimepicker btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  }
+
+.old, .new {
+  color: #6ec071;
   }
 
 /**
