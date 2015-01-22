@@ -146,7 +146,8 @@ $calendar-radius:                      4px !default;
          cursor: pointer;
         }
     }  
-     ul{padding:0;list-style-type: none}     
+     ul{padding:0;list-style-type: none}  
+	  th{font-weight:normal}
      #datetimepicker {
             background:rgba(0,0,0,0);
             -webkit-box-shadow:none;
@@ -159,7 +160,7 @@ $calendar-radius:                      4px !default;
 						color:$calendar-current-color;
 					}
 				}
-				& btn {
+				& .btn {
 					background-color:rgba(0,0,0,0);
 					cursor: pointer;
 					color:#fff;
