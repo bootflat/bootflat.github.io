@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2015-01-22
+ * Last modify time: 2015-01-23
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -131,7 +131,7 @@
   }
 
 /*!
- *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
@@ -141,13 +141,14 @@
   font-style: normal;
   font-weight: normal;
 
-  src: url("../fonts/fontawesome-webfont.eot?v=4.2.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
+  src: url("../fonts/fontawesome-webfont.eot?v=4.3.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
   }
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
+  transform: translate(0, 0);
 
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -226,6 +227,11 @@
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
           animation: fa-spin 2s infinite linear;
+  }
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8);
   }
 
 @-webkit-keyframes fa-spin {
@@ -913,6 +919,7 @@
   content: "";
   }
 
+.fa-facebook-f:before,
 .fa-facebook:before {
   content: "";
   }
@@ -1767,7 +1774,8 @@
   content: "";
   }
 
-.fa-gittip:before {
+.fa-gittip:before,
+.fa-gratipay:before {
   content: "";
   }
 
@@ -2116,6 +2124,7 @@
   content: "";
   }
 
+.fa-genderless:before,
 .fa-circle-thin:before {
   content: "";
   }
@@ -2305,6 +2314,167 @@
 
 .fa-meanpath:before {
   content: "";
+  }
+
+.fa-buysellads:before {
+  content: "";
+  }
+
+.fa-connectdevelop:before {
+  content: "";
+  }
+
+.fa-dashcube:before {
+  content: "";
+  }
+
+.fa-forumbee:before {
+  content: "";
+  }
+
+.fa-leanpub:before {
+  content: "";
+  }
+
+.fa-sellsy:before {
+  content: "";
+  }
+
+.fa-shirtsinbulk:before {
+  content: "";
+  }
+
+.fa-simplybuilt:before {
+  content: "";
+  }
+
+.fa-skyatlas:before {
+  content: "";
+  }
+
+.fa-cart-plus:before {
+  content: "";
+  }
+
+.fa-cart-arrow-down:before {
+  content: "";
+  }
+
+.fa-diamond:before {
+  content: "";
+  }
+
+.fa-ship:before {
+  content: "";
+  }
+
+.fa-user-secret:before {
+  content: "";
+  }
+
+.fa-motorcycle:before {
+  content: "";
+  }
+
+.fa-street-view:before {
+  content: "";
+  }
+
+.fa-heartbeat:before {
+  content: "";
+  }
+
+.fa-venus:before {
+  content: "";
+  }
+
+.fa-mars:before {
+  content: "";
+  }
+
+.fa-mercury:before {
+  content: "";
+  }
+
+.fa-transgender:before {
+  content: "";
+  }
+
+.fa-transgender-alt:before {
+  content: "";
+  }
+
+.fa-venus-double:before {
+  content: "";
+  }
+
+.fa-mars-double:before {
+  content: "";
+  }
+
+.fa-venus-mars:before {
+  content: "";
+  }
+
+.fa-mars-stroke:before {
+  content: "";
+  }
+
+.fa-mars-stroke-v:before {
+  content: "";
+  }
+
+.fa-mars-stroke-h:before {
+  content: "";
+  }
+
+.fa-neuter:before {
+  content: "";
+  }
+
+.fa-facebook-official:before {
+  content: "";
+  }
+
+.fa-pinterest-p:before {
+  content: "";
+  }
+
+.fa-whatsapp:before {
+  content: "";
+  }
+
+.fa-server:before {
+  content: "";
+  }
+
+.fa-user-plus:before {
+  content: "";
+  }
+
+.fa-user-times:before {
+  content: "";
+  }
+
+.fa-hotel:before,
+.fa-bed:before {
+  content: "";
+  }
+
+.fa-viacoin:before {
+  content: "";
+  }
+
+.fa-train:before {
+  content: "";
+  }
+
+.fa-subway:before {
+  content: "";
+  }
+
+.fa-medium:before {
+  content: "";
   }
 
 /**
