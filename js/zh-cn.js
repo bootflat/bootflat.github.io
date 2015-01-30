@@ -36,7 +36,7 @@
                 hour = 0;
             }
             if (meridiem === '凌晨' || meridiem === '早上' ||
-                meridiem === '上午') {
+                    meridiem === '上午') {
                 return hour;
             } else if (meridiem === '下午' || meridiem === '晚上') {
                 return hour + 12;
@@ -88,17 +88,17 @@
         ordinalParse: /\d{1,2}(日|月|周)/,
         ordinal : function (number, period) {
             switch (period) {
-                case 'd':
-                case 'D':
-                case 'DDD':
-                    return number + '日';
-                case 'M':
-                    return number + '月';
-                case 'w':
-                case 'W':
-                    return number + '周';
-                default:
-                    return number;
+            case 'd':
+            case 'D':
+            case 'DDD':
+                return number + '日';
+            case 'M':
+                return number + '月';
+            case 'w':
+            case 'W':
+                return number + '周';
+            default:
+                return number;
             }
         },
         relativeTime : {
