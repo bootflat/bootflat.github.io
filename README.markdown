@@ -4,6 +4,9 @@
 
 ## JisuankeUI 更新记录：
 
+
+2015/01/30 datetimepicker 4.0.2 定制
+
 2015/01/21 timepicker into； 部分bug修改
 
 2015/01/20 fontawesome 替换 glyphicons
