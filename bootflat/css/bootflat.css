@@ -4535,6 +4535,7 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
   float: left;
   width: 20%;
   padding: 0 20px;
+  color: #fff;
   }
 @media (max-width: 768px) {
   .footer-logo {
