@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2015-01-30
+ * Last modify time: 2015-01-31
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -3650,8 +3650,8 @@ th {
   border: #ffab91;
   }
 .alert-success {
-  background-color: #a5d6a7;
-  border: #a5d6a7;
+  background-color: #c5e1a5;
+  border: #c5e1a5;
   }
 .alert .alert-link {
   text-decoration: underline;
