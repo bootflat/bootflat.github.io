@@ -4036,10 +4036,6 @@ th {
     overflow-y: hidden;
     }
 
-  .jsk-nav .navbar-nav > li > a {
-    color: #90a4ae;
-    }
-
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color: #607d8b;
     background: none;
@@ -4056,11 +4052,6 @@ th {
   .jsk-nav .navbar-nav > li > a:hover {
     color: #607d8b;
     background: none;
-    }
-
-  .jsk-nav .navbar-nav {
-    margin: 0;
-    line-height: 40px;
     }
 
   .navbar-nav .open .dropdown-menu {

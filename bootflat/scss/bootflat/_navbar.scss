@@ -229,9 +229,6 @@ $navbar-inverse-background-color:            $black !default;
   .navbar-collapse.in {
     overflow-y: hidden;
   }
-  .jsk-nav .navbar-nav > li > a {
-    color:#90A4AE;
-  }
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background: none;
     color:#607D8B
@@ -245,10 +242,6 @@ $navbar-inverse-background-color:            $black !default;
   .jsk-nav .navbar-nav > li > a:hover {
     background: none;
     color:#607D8B
-  }
-  .jsk-nav .navbar-nav {
-    line-height: 40px;
-    margin: 0;
   }
   .navbar-nav .open .dropdown-menu {
      position: relative;
