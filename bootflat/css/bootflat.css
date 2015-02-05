@@ -7,7 +7,7 @@
  *
  * By @Flathemes <info@flathemes.com>
  *
- * Last modify time: 2015-01-31
+ * Last modify time: 2015-02-05
  *
  * Licensed under the MIT license. Please see LICENSE for more information.
  *
@@ -4017,6 +4017,61 @@ th {
     }
   }
 
+@media (max-width: 768px) {
+  .jsk-navbar-coll {
+    position: absolute;
+    right: 30px;
+    z-index: 999;
+    width: 150px;
+    overflow-x: hidden;
+    text-align: center;
+    background: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    border-top: none;
+    border-right: none;
+    border-bottom-left-radius: 2px;
+    }
+
+  .navbar-collapse.in {
+    overflow-y: hidden;
+    }
+
+  .jsk-nav .navbar-nav > li > a {
+    color: #90a4ae;
+    }
+
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #607d8b;
+    background: none;
+    }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    background: none;
+    }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #90a4ae;
+    }
+
+  .jsk-nav .navbar-nav > li > a:hover {
+    color: #607d8b;
+    background: none;
+    }
+
+  .jsk-nav .navbar-nav {
+    margin: 0;
+    line-height: 40px;
+    }
+
+  .navbar-nav .open .dropdown-menu {
+    position: relative;
+    width: 100%;
+    }
+
+  .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    background: none;
+    }
+  }
 /**
  * list
  * --------------------------------------------------
