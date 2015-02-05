@@ -6,7 +6,7 @@ $toggle-checkbox-opacity:               0 !default;
 $toggle-transition-value:               all .25s ease-in-out !default;
 
 $toggle-default-background-color:		$white !default;
-$toggle-checked-background-color:		$grass-light !default;
+$toggle-checked-background-color:		$mushroom-dark !default;
 $toggle-disabled-background-color:		$lightgray-dark !default;
 
 $toggle-handle-width:					50px !default;
@@ -17,9 +17,9 @@ $toggle-control-width:					30px !default;
 $toggle-control-height:					30px !default;
 $toggle-control-radius:					30px !default;
 
-$toggle-shadow:                         inset 0 0 0 1px lighten($mediumgray-dark, 5%) !default;
-$toggle-control-shadow:                 inset 0 0 0 1px lighten($mediumgray-dark, 5%), 1px 1px 1px lighten($mediumgray-dark, 10%) !default;
-$toggle-checked-shadow:                 inset 0 0 0 1px $lightgray-light, 1px 1px 1px lighten($mediumgray-dark, 10%) !default;
+$toggle-shadow:                         inset 0 0 0 1px lighten($darkgray-dark, 5%) !default;
+$toggle-control-shadow:                 inset 0 0 0 1px lighten($darkgray-dark, 5%), 1px 1px 1px lighten($darkgray-dark, 10%) !default;
+$toggle-checked-shadow:                 inset 0 0 0 1px $lightgray-light, 1px 1px 1px lighten($darkgray-dark, 10%) !default;
 
 // Exports
 //------------------------------------------------------

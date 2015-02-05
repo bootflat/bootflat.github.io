@@ -1,12 +1,12 @@
 // Variables
 //------------------------------------------------------
-$body-font-color:            $darkgray-dark !default;
+$body-font-color:            darken($mushroom-dark, 15%) !default;
 $body-background-color:      $white !default;
 
-$link-font-color:            $aqua-dark !default; 
-$link-font-color-hover:      $aqua-light !default; 
+$link-font-color:            $pine-dark !default;
+$link-font-color-hover:      $pine-light !default;
 
-$blockquote-border-color:    $mediumgray-light !default;
+$blockquote-border-color:    $darkgray-light !default;
 
 $image-radius:               4px !default;
 
@@ -21,8 +21,7 @@ $image-radius:               4px !default;
    */
 
   body {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    // font-family: 'Lato', sans-serif;
+    font-family: 'Lantinghei SC', 'FZLanTingHei-R-GBK', 'Microsoft YaHei', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: $body-font-color;
     background-color: $body-background-color;
   }
@@ -123,5 +122,3 @@ $image-radius:               4px !default;
   }
 
 }
-
-

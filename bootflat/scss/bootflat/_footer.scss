@@ -1,9 +1,9 @@
 // Variables
 //------------------------------------------------------
-$footer-background-color:            $darkgray-dark !default;
+$footer-background-color:            $mushroom-dark !default;
 $footer-menu-title-color:            $lightgray-dark !default;
-$footer-menu-item-color:             $mediumgray-dark !default;
-$footer-menu-item-color-hover:       $mediumgray-light !default;
+$footer-menu-item-color:             $darkgray-dark !default;
+$footer-menu-item-color-hover:       $darkgray-light !default;
 $footer-logo-color:                  $white !default;
 
 
@@ -27,6 +27,7 @@ $footer-logo-color:                  $white !default;
       float: left;
       padding: 0 20px;
       width: 20%;
+      color: #fff;
     }
     @media (max-width: 768px) {
       &-logo {
@@ -37,7 +38,7 @@ $footer-logo-color:                  $white !default;
         float: none;
         display: block;
         width: 100%;
-      }      
+      }
     }
     &-logo {
       margin-top: -5px;
@@ -78,5 +79,3 @@ $footer-logo-color:                  $white !default;
   }
 
 }
-
-

@@ -1,14 +1,14 @@
 // Variables
 //------------------------------------------------------
-$label-normal:                  $mediumgray-dark !default;
+$label-normal:                  $darkgray-dark !default;
 $label-default:                 $white !default;
-$label-primary:                 $aqua-dark !default;
-$label-success:                 $grass-dark !default;
-$label-danger:                  $grapefruit-dark !default;
+$label-primary:                 $myosotis-dark !default;
+$label-success:                 $garlic-dark !default;
+$label-danger:                  $orange-dark !default;
 $label-warning:                 $sunflower-dark !default;
-$label-info:                    $mint-dark !default;
+$label-info:                    $pine-dark !default;
 
-$label-default-font-color:      $darkgray-dark !default;
+$label-default-font-color:      $mushroom-dark !default;
 
 // Exports
 //------------------------------------------------------
@@ -61,5 +61,3 @@ $label-default-font-color:      $darkgray-dark !default;
     background-color: $label-info;
   }
 }
-
-

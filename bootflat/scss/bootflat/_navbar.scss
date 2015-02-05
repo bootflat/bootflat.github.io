@@ -1,9 +1,9 @@
 // Variables
 //------------------------------------------------------
-$navbar-background-color:                    $mint-dark !default;
-$navbar-background-color-active:             $mint-light !default;
+$navbar-background-color:                    $white !default;
+$navbar-background-color-active:             $garlic-dark !default;
 
-$navbar-font-color:                          $white !default;
+$navbar-font-color:                          lighten($black, 40%) !default;
 $navbar-item-background-color-hover:         $navbar-background-color-active !default;
 
 $navbar-inverse-background-color:            $black !default;
@@ -29,7 +29,7 @@ $navbar-inverse-background-color:            $black !default;
       & .navbar-brand,
       & .navbar-link,
       & .btn-link {
-          color: darken($navbar-background-color, 15%);
+          color: $navbar-font-color;
       }
       & .navbar-brand:hover,
       & .navbar-brand:focus,
@@ -41,16 +41,16 @@ $navbar-inverse-background-color:            $black !default;
       }
       & .navbar-text,
       & .navbar-nav > li > a {
-          color: darken($navbar-background-color, 15%);
+          color: $navbar-font-color;
       }
       & .navbar-nav > li > a:hover,
       & .navbar-nav > li > a:focus {
-          color: $navbar-font-color;
+          color: darken($navbar-font-color, 25%);
       }
       & .navbar-nav > .active > a,
       & .navbar-nav > .active > a:hover,
       & .navbar-nav > .active > a:focus {
-          color: $navbar-font-color;
+          color: $white;
           background-color: $navbar-background-color-active;
       }
       & .btn-link[disabled]:hover,
@@ -79,7 +79,7 @@ $navbar-inverse-background-color:            $black !default;
       & .navbar-form {
           border-color: $navbar-item-background-color-hover;
       }
-
+      
 
       & .navbar-nav > .open > a,
       & .navbar-nav > .open > a:hover,
@@ -212,5 +212,44 @@ $navbar-inverse-background-color:            $black !default;
           }
       }
   }
+  @media (max-width: 768px) {
+  .jsk-navbar-coll {
+    z-index:999;
+    position: absolute;
+    width:150px;
+    right: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    border: 1px solid #f7f7f7;
+    border-top: none;
+    border-right: none;
+    border-bottom-left-radius: 2px;
+    overflow-x: hidden;
+  }
+  .navbar-collapse.in {
+    overflow-y: hidden;
+  }
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background: none;
+    color:#607D8B
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    background: none;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a{
+    color: #90A4AE;
+  }
+  .jsk-nav .navbar-nav > li > a:hover {
+    background: none;
+    color:#607D8B
+  }
+  .navbar-nav .open .dropdown-menu {
+     position: relative;
+    width:100%;
+   }
+  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background:none;
+   }
+}
 
 }

@@ -70,6 +70,7 @@ module.exports = function(grunt) {
         files: {
           'css/site.min.css': [
             'css/bootstrap.min.css',
+
             '<%= meta.defaultPath %>/css/<%= pkg.name %>.css',
             'css/site.css'
           ],
@@ -85,7 +86,7 @@ module.exports = function(grunt) {
         options: {
           banner: '<%= banner %>',
           style: 'expanded',
-          sourcemap: 'true'
+          sourcemap: 'auto'
         }
       }
     },

@@ -2,13 +2,13 @@
 //------------------------------------------------------
 $panel-normal:                  $lightgray-dark !default;
 $panel-default:                 $white !default;
-$panel-primary:                 $aqua-dark !default;
-$panel-success:                 $grass-dark !default;
-$panel-danger:                  $grapefruit-dark !default;
+$panel-primary:                 $myosotis-dark !default;
+$panel-success:                 $garlic-dark !default;
+$panel-danger:                  $orange-dark !default;
 $panel-warning:                 $sunflower-dark !default;
-$panel-info:                    $mint-dark !default;
+$panel-info:                    $pine-dark !default;
 
-$panel-font-color:              $darkgray-dark !default;
+$panel-font-color:              $mushroom-dark !default;
 
 $panel-background-color:        $white !default;
 $panel-shadow:                  0 1px 2px rgba(0, 0, 0, .2) !default;
@@ -27,18 +27,18 @@ $panel-radius:                  4px !default;
   .panel {
     background-color: $panel-background-color;
     border: none;
-    @include radius($type: border-radius, $value: $panel-radius); 
+    @include radius($type: border-radius, $value: $panel-radius);
     @include box-shadow($value: $panel-shadow);
 
     & .list-group {
-      @include box-shadow($value: none);    
+      @include box-shadow($value: none);
     }
     & .list-group-item:first-child {
       border-top: 1px solid $panel-normal;
     }
 
     &-heading {
-      @include radius($type: border-radius, $value: $panel-radius $panel-radius 0 0); 
+      @include radius($type: border-radius, $value: $panel-radius $panel-radius 0 0);
     }
     &-title {
       font-size: 14px;
@@ -48,7 +48,7 @@ $panel-radius:                  4px !default;
     &-footer {
       background-color: $panel-normal;
       border-top-color: $panel-normal;
-      @include radius($type: border-radius, $value: 0 0 $panel-radius $panel-radius); 
+      @include radius($type: border-radius, $value: 0 0 $panel-radius $panel-radius);
     }
 
     @at-root &-default {
@@ -111,10 +111,10 @@ $panel-radius:                  4px !default;
     & > .list-group:first-child .list-group-item:first-child,
     & > .table:first-child,
     & > .table-responsive:first-child > .table:first-child {
-      @include radius($type: border-radius, $value: $panel-radius $panel-radius 0 0); 
+      @include radius($type: border-radius, $value: $panel-radius $panel-radius 0 0);
     }
     & > .list-group:last-child .list-group-item:last-child {
-      @include radius($type: border-radius, $value: 0 0 $panel-radius $panel-radius); 
+      @include radius($type: border-radius, $value: 0 0 $panel-radius $panel-radius);
     }
     & > .table:first-child > thead:first-child > tr:first-child td:first-child,
     & > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,

@@ -1,8 +1,8 @@
 // Variables
 //------------------------------------------------------
-$calendar-background-color:            $bittersweet-light !default;
+$calendar-background-color:            $garlic-light !default;
 $calendar-font-color:                  $white !default;
-$calendar-current-color:               $bittersweet-dark !default;
+$calendar-current-color:               $garlic-dark !default;
 
 $calendar-shadow:					   0 1px 2px rgba(0, 0, 0, .2) !default;
 $calendar-radius:                      4px !default;
@@ -29,6 +29,7 @@ $calendar-radius:                      4px !default;
 				float: left;
 				width: 14.28%;
 				text-align: center;
+				cursor:pointer
 		}
 
 		& .years {
@@ -131,4 +132,43 @@ $calendar-radius:                      4px !default;
 			}
 		}
 	}
+	.unit {
+		&:hover{
+			color:$calendar-current-color;
+		}
+	}
+	  .unit-t{
+        text-align:center;
+        cursor: pointer;
+        &.active,&:active b,&:hover b {
+         display: inline-block;
+         color: $calendar-current-color;
+         cursor: pointer;
+        }
+    }  
+     ul{padding:0;list-style-type: none}  
+	  th{font-weight:normal}
+     #datetimepicker {
+            background:rgba(0,0,0,0);
+            -webkit-box-shadow:none;
+            box-shadow: none;
+            & li{
+             text-align: center; 
+					& a:hover{
+						background-color:rgba(0,0,0,0);
+						cursor: pointer;
+						color:$calendar-current-color;
+					}
+				}
+				& .btn {
+					background-color:rgba(0,0,0,0);
+					cursor: pointer;
+					color:#fff;
+					border:1px solid rgba(0,0,0,0);
+				}
+        }
+       
+      .old,.new{
+            color:lighten($calendar-current-color, 10%)
+        }    
 }
