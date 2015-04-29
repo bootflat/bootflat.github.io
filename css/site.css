@@ -316,14 +316,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .carbon-poweredby {
 	float: right;
-	margin-top:9px;
 	text-align:center;
 	color:#999
-	font-size:11px !important;
 }
 .carbon-poweredby a{
 	color:#999;
-	text-decoration:none
+	text-decoration:none;
+	font-size:11px
 }
 /* ----------------------------------
  * navbar
