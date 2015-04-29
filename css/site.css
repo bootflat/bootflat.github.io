@@ -424,8 +424,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .carbon-text a{
 	color:#000;
-	text-decoration:none;
+	text-decoration:none !important;
 	text-transform:none;
+	font-size:11px !important
 }
 .carbon-poweredby {
 	float: right;
@@ -434,8 +435,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .carbon-poweredby a{
 	color:#999;
-	text-decoration:none;
-	font-size:11px
+	text-decoration:none !important;
+	font-size:11px !important
 }
 /* ----------------------------------
  * documents
