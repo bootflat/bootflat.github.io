@@ -265,66 +265,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     }
 }
 /* ----------------------------------
- * advertisement
- * ---------------------------------- */
-.advertisement {
-  padding: 5px;
-  width: auto !important;
-  overflow: hidden; /* clearfix */
-  text-align: left;
-  border: 1px solid #a4e4ef !important;
-  border-radius: 4px;
-}
-@media (max-width: 767px) {
-  .advertisement {
-    position: static;
-    margin: 30px 0;
-  }
-}
-@media (min-width: 768px) {
-  .advertisement {
-    position: absolute;
-    top: 15px;
-    right: 15px; /* 15px instead of 0 since box-sizing */
-    width: 380px !important;
-  }
-}
-.carbon-wrap {
-	display:block;
-	font-size:11px;
-	height:100px;
-	line-height:15px;
-	overflow:hidden;
-}
-.carbon-img{
-	border:none;
-	display:inline;
-	float:left;
-	height:100px;
-	margin:0 9px 9px;
-	width:130px
-}
-.carbon-text{
-	display:inline;
-	float:left;
-	width:162px;
-}
-.carbon-text a{
-	color:#000;
-	text-decoration:none;
-	text-transform:none;
-}
-.carbon-poweredby {
-	float: right;
-	text-align:center;
-	color:#999
-}
-.carbon-poweredby a{
-	color:#999;
-	text-decoration:none;
-	font-size:11px
-}
-/* ----------------------------------
  * navbar
  * ---------------------------------- */
 .navbar-custom {
@@ -437,6 +377,65 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .topic .github {
     position: relative;
     top: 10px;
+}
+/* ----------------------------------
+ * advertisement
+ * ---------------------------------- */
+.advertisement {
+  padding: 5px;
+  width: auto !important;
+  overflow: hidden; /* clearfix */
+  text-align: left;
+  border: 1px solid #a4e4ef !important;
+  border-radius: 4px;
+}
+@media (max-width: 767px) {
+  .advertisement {
+    position: static;
+    margin: 30px 0;
+  }
+}
+@media (min-width: 768px) {
+  .advertisement {
+    position: absolute;
+    top: 15px;
+    right: 15px; /* 15px instead of 0 since box-sizing */
+    width: 380px !important;
+  }
+}
+.carbon-wrap {
+	display:block;
+	height:100px;
+	line-height:15px;
+	overflow:hidden;
+}
+.carbon-img{
+	border:none;
+	display:inline;
+	float:left;
+	height:100px;
+	margin:9px;
+	width:130px
+}
+.carbon-text{
+	display:inline;
+	float:left;
+	width:162px;
+}
+.carbon-text a{
+	color:#000;
+	text-decoration:none;
+	text-transform:none;
+}
+.carbon-poweredby {
+	float: right;
+	text-align:center;
+	color:#999
+}
+.carbon-poweredby a{
+	color:#999;
+	text-decoration:none;
+	font-size:11px
 }
 /* ----------------------------------
  * documents
