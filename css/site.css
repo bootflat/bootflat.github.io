@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	display:inline;
 	float:left;
 	height:100px;
-	margin:9px;
+	margin:0 9px 9px;
 	width:130px
 }
 .carbon-text{
@@ -317,10 +317,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	text-transform:none;
 }
 .carbon-poweredby {
-	float:right;
 	margin-top:9px;
 	text-align:center;
-	width:142px;
 	color:#999
 	font-size:11px;
 }
