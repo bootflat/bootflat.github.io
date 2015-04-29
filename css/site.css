@@ -291,12 +291,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .carbon-wrap {
 	display:block;
-	font-family:Lucida Grande,Arial,Helvetica,sans-serif;
-	font-size:13px;
-	height:118px;
+	font-size:11px;
+	height:100px;
 	line-height:15px;
 	overflow:hidden;
-	width:300px
+	width:280px
 }
 .carbon-img{
 	border:none;
@@ -320,7 +319,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin-top:9px;
 	text-align:center;
 	color:#999
-	font-size:11px;
+	font-size:11px !important;
 }
 .carbon-poweredby a{
 	color:#999;
