@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .index .adpacks {
 	margin: 0 auto 100px;
-	padding: 15px;
+	padding: 9px 9px 18px;
 	border-radius: 3px;
 	border: 1px solid #3bafda;
 	width: 380px;
@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	display:inline;
 	float:left;
 	height:100px;
-	margin:0 9px 9px;
+	margin:9px 9px 9px 0;
 	width:130px
 }
 .carbon-text{
