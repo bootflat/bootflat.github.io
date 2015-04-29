@@ -434,22 +434,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding: 10px 16px;
     text-decoration: none;
 }
-.topic .container a.adpacks-img {
-	float: left;
-	width: 140px;
-}
-.topic .container a.adpacks-text {
-	font-size: 13px;
-	line-height: 16px !important;
-	text-decoration: none;
-}
-.topic .container a.adpacks-poweredby {
-	display: block;
-	font-size: 13px;
-	line-height: 16px !important;
-	text-decoration: none;
-	color: #c5f5fe;
-}
 .topic .github {
     position: relative;
     top: 10px;
