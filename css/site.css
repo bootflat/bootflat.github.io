@@ -421,8 +421,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	display:inline;
 	float:left;
 	width:162px;
-}
-.carbon-text a{
 	color:#000;
 	text-decoration:none !important;
 	text-transform:none;
@@ -432,9 +430,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	float: right;
 	text-align:center;
 	color:#999
-}
-.carbon-poweredby a{
-	color:#999;
 	text-decoration:none !important;
 	font-size:11px !important
 }
