@@ -289,6 +289,45 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 380px !important;
   }
 }
+.carbonad {
+	display:block;
+	font-family:Lucida Grande,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	height:118px;
+	line-height:15px;
+	overflow:hidden;
+	width:300px
+}
+.carbonad-img{
+	border:none;
+	display:inline;
+	float:left;
+	height:100px;
+	margin:9px;
+	width:130px
+}
+.carbonad-text{
+	display:inline;
+	float:left;
+	width:142px;
+	padding-top:13px
+}
+.carbonad-text a{
+	color:#000;
+	text-decoration:none;
+	text-transform:none;
+}
+.carbonad-tag{
+	float:left;
+	margin-top:9px;
+	text-align:center;
+	width:142px;
+	color:#999
+}
+.carbonad-tag a{
+	color:#999;
+	text-decoration:none
+}
 /* ----------------------------------
  * navbar
  * ---------------------------------- */
