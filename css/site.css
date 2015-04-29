@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
  * advertisement
  * ---------------------------------- */
 .advertisement {
-  padding: 15px;
+  padding: 5px;
   width: auto !important;
   overflow: hidden; /* clearfix */
   text-align: left;
@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .carbon-wrap {
 	display:block;
 	font-family:Lucida Grande,Arial,Helvetica,sans-serif;
-	font-size:11px;
+	font-size:13px;
 	height:118px;
 	line-height:15px;
 	overflow:hidden;
@@ -310,7 +310,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	display:inline;
 	float:left;
 	width:142px;
-	padding-top:13px
 }
 .carbon-text a{
 	color:#000;
@@ -318,11 +317,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	text-transform:none;
 }
 .carbon-poweredby {
-	float:left;
+	float:right;
 	margin-top:9px;
 	text-align:center;
 	width:142px;
 	color:#999
+	font-size:11px;
 }
 .carbon-poweredby a{
 	color:#999;
