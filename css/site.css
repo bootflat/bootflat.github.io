@@ -110,6 +110,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .index .adpacks .adpacks-poweredby {
 	display: block;
+	margin-bottom:9px;
 }
 @media (max-width: 767px) {
     .index {
@@ -414,7 +415,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	display:inline;
 	float:left;
 	height:100px;
-	margin:9px;
+	margin:0 9px 9px;
 	width:130px
 }
 .carbon-text{
