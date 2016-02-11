@@ -23,7 +23,7 @@ Thanks for supporting our framework, and enjoy!
 
 For the designers, we offer a [free PSD](https://github.com/bootflat/Bootflat.UI.Kit.PSD) file for you, it including a set of beautiful and pure components, which you can use to create startup projects, websites or iOS/Android Apps.
 
-![Bootflat UI Kit](http://bootflat.github.io/img/bootflat-ui-kit.jpg "Bootflat UI Kit")
+![Bootflat UI Kit](https://bootflat.github.io/img/bootflat-ui-kit.jpg "Bootflat UI Kit")
 
 ## Features:
 
@@ -75,11 +75,11 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 
 ## Table of contents:
 
-+ [Home page](http://bootflat.github.io)
-+ [Getting Started](http://bootflat.github.io/getting-started.html)
-+ [Documentation](http://bootflat.github.io/documentation.html)
-+ [Flat UI Color Picker](http://bootflat.github.io/color-picker.html)
-+ [Free PSD](http://bootflat.github.io/free-psd.html)
++ [Home page](https://bootflat.github.io)
++ [Getting Started](https://bootflat.github.io/getting-started.html)
++ [Documentation](https://bootflat.github.io/documentation.html)
++ [Flat UI Color Picker](https://bootflat.github.io/color-picker.html)
++ [Free PSD](https://bootflat.github.io/free-psd.html)
 + [Free Sketch](https://github.com/teracy-official/bootflat-ui-kit.sketch)
 
 ## Changelog:

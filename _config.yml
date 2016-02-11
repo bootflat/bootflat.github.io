@@ -11,7 +11,7 @@ permalink:        pretty
 
 # Server
 source:           docs
-url:              http://bootflat.github.io
+url:              https://bootflat.github.io
 encoding:         UTF-8
 
 # Custom vars
