@@ -189,8 +189,8 @@ blockquote {
   border-color: #ccd1d9;
 }
 .btn-primary, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
-  background-color: #3bafda;
-  border-color: #3bafda;
+  background-color: #4fc1e9;
+  border-color: #4fc1e9;
 }
 .btn-primary:hover, .btn-primary:focus {
   background-color: #4fc1e9;
