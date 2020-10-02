@@ -15,7 +15,7 @@ BOOTFLAT is an open source Flat UI KIT based on Bootstrap 3.3.0 CSS framework. I
 
 Bootflat is built on the foundations of Bootstrap, visioned in a stunning flat design. Bootstrap itself is a trusted, reliable and proven tool for developers. Built with `Sass 3.4.9`.
 
-Bootflat is compatible with the following browsers: `IE8, IE9, IE10, IE11, Firefox, Safari, Opera, Chrome`.
+Bootflat is Compatible with the following browsers: `IE8, IE9, IE10, IE11, Firefox, Safari, Opera, Chrome`.
 
 Thanks for supporting our framework, and enjoy!
 
@@ -105,4 +105,4 @@ The source files are in the `bootflat/` folder. You can just grab the `bootflat/
 
 ## LICENSE
 
-Bootflat is licensed under the MIT Open Source license. For more information, please see the LICENSE file in this repository.
+Bootflat is licensed under the MIT Open Source license. For more information, Please see the LICENSE file in this repository.
